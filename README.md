@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/helsingborg-stad/dev-guide">
-    <img src="images/logo.jpg" alt="Logo" width="600" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="600">
   </a>
 
   <h3 align="center">Helsingborg Stad Dev Guide</h3>
