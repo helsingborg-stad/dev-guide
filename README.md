@@ -3,7 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License: MIT][license-shield]][license-url]
+[![License][license-shield]][license-url]
 
 
 <br />
@@ -133,5 +133,4 @@ Distributed under the [MIT License][license-url].
 [issues-shield]: https://img.shields.io/github/issues/helsingborg-stad/dev-guide.svg?style=flat-square
 [issues-url]: https://github.com/helsingborg-stad/dev-guide/issues
 [license-shield]: https://img.shields.io/github/license/helsingborg-stad/dev-guide.svg?style=flat-square
-[license-url]: https://github.com/helsingborg-stad/dev-guide/blob/master/LICENSE.txt
-[product-screenshot]: /images/screenshot.png
+[license-url]: https://raw.githubusercontent.com/helsingborg-stad/dev-guide/master/LICENSE
