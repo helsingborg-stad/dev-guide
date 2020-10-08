@@ -35,7 +35,6 @@ repo_name, monorepo_project_name -->
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
 - [Services](#services)
-- [Usage](#usage)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -76,16 +75,10 @@ npm install npm@latest -g
 ```
 
 ## Services
-Every service in this mono repo has its own documentation. Follow links below
+Every service in this mono repo has its own documentation. Follow links below.
 
 - [Service One](/services/service-one)
 - [Service Two](/services/service-two)
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
