@@ -77,8 +77,8 @@ npm install npm@latest -g
 ## Services
 Every service in this mono repo has its own documentation. Follow links below.
 
-- [Service One](/services/service-one)
-- [Service Two](/services/service-two)
+- [Service One](/services/service)
+- [Service Two](/services/service)
 
 
 
