@@ -92,7 +92,7 @@ A full markdown documentation about everything you need to know about contributi
 
 ## Roadmap
 
-See the [open issues](issues-url) for a list of proposed features (and known issues).
+See the [open issues][issues-url] for a list of proposed features (and known issues).
 
 
 
@@ -110,7 +110,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the [MIT License](license-url).
+Distributed under the [MIT License][license-url].
 
 
 
