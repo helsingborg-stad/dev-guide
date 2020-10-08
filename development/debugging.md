@@ -1,1 +1,6 @@
 # Debugging
+
+## PHP
+XDebug
+
+## Javascript
