@@ -3,10 +3,10 @@ All our devvy stuff.
 
 ## Table of contents
 
-- [Code guideline](/development/code-guidelines)
-    - [Javascript](/development/code-guidelines/javascript.md)
-    - [PHP](/development/code-guidelines/php.md)
-    - [Typescript](/development/code-guidelines/typescript.md)
+- [Code guideline](/development/code-guideline)
+    - [Javascript](/development/code-guideline/javascript.md)
+    - [PHP](/development/code-guideline/php.md)
+    - [Typescript](/development/code-guideline/typescript.md)
 - [Tools](/development/tools)
     - [Composer](/development/tools/composer.md)
     - [Docker](/development/tools/docker.md)

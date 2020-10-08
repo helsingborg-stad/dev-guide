@@ -6,6 +6,7 @@
 [![License][license-shield]][license-url]
 
 
+
 <br />
 <p align="center">
   <a href="https://github.com/helsingborg-stad/dev-guide">
@@ -28,7 +29,7 @@
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Topics](#topics)
-- [About Dev Guide](#about-dev-guide)
+- [About Helsingborg stad Dev Guide](#about-helsingborg-stad-dev-guide)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -45,10 +46,10 @@
     - [Readme](/documentation/readme.md)
     - [This documentation](/documentation/this-documentation.md)
 - [Development](/development)
-    - [Code guideline](/development/code-guidelines)
-        - [Javascript](/development/code-guidelines/javascript.md)
-        - [PHP](/development/code-guidelines/php.md)
-        - [Typescript](/development/code-guidelines/typescript.md)
+    - [Code guideline](/development/code-guideline)
+        - [Javascript](/development/code-guideline/javascript.md)
+        - [PHP](/development/code-guideline/php.md)
+        - [Typescript](/development/code-guideline/typescript.md)
     - [Tools](/development/tools)
         - [Composer](/development/tools/composer.md)
         - [Docker](/development/tools/docker.md)
@@ -84,7 +85,7 @@
 
 
 
-## About Dev Guide
+## About Helsingborg stad Dev Guide
 
 A full markdown documentation about everything you need to know about contributing to our repositories.
 
@@ -118,7 +119,6 @@ Distributed under the [MIT License][license-url].
 
 - [DocToc](https://github.com/thlorenz/doctoc)
 - [othneildrew Best README Template](https://github.com/othneildrew/Best-README-Template)
-
 
 
 
