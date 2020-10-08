@@ -10,7 +10,7 @@ repo_name, project_name -->
 
 
 <br />
-<p align="center">
+<p>
   <a href="https://github.com/helsingborg-stad/repo_name">
     <img src="images/logo.jpg" alt="Logo" width="600">
   </a>
