@@ -1,14 +1,12 @@
-<!-- PROJECT SHIELDS -->
+<!-- SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/helsingborg-stad/dev-guide">
@@ -28,57 +26,65 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
-
-* [Introduction](/introduction)
-    *  [New developer](/introduction/new-developer.md)
-* [Documentation](/documentation)
-    * [Code](/documentation/code.md)
-    * [Markdown](/documentation/markdown.md)
-    * [Readme](/documentation/readme.md)
-    * [This documentation](/documentation/this-documentation.md)
-* [Development](/development)
-    * [Code guideline](/development/code-guidelines)
-        * [Javascript](/development/code-guidelines/javascript.md)
-        * [PHP](/development/code-guidelines/php.md)
-        * [Typescript](/development/code-guidelines/typescript.md)
-    * [Tools](/development/tools)
-        * [Composer](/development/tools/composer.md)
-        * [Docker](/development/tools/docker.md)
-        * [Editors](/development/tools/editors.md)
-        * [git](/development/tools/git.md)
-        * [Linters](/development/tools/linters)
-            * [ESLint](/development/tools/linters/eslint)
-                * [Javascript](/development/tools/linters/eslint/javascript.md)
-                * [Typescript](/development/tools/linters/eslint/typescript.md)
-            * [phpcs](/development/tools/linters/phpcs.md)
-    * [Workflow](/development/workflow)
-        * [Branching strategy](/development/workflow/branching-strategy.md)
-        * [Code review](/development/workflow/code-review.md)
-        * [Deploy](/development/workflow/deploy.md)
-        * [Scrum](/development/workflow/scrum.md)
-    * [Commit guidelines](/development/commit-guidelines.md)
-    * [Debugging](/development/debugging.md)
-    * [repositories](/development/repositories.md)
-    * [Versioning](/development/versioning.md)
-* [Infrastructure](/infrastructure)
-    * [AWS](/infrastructure/aws)
-        * [Cloudformation](/infrastructure/aws/cloudformation.md)
-        * [Common](/infrastructure/aws/common.md)
-    * [Servers](/infrastructure/servers)
-        * [Common](/infrastructure/common.md)
-        * [Intranet](/infrastructure/intranet.md)
-* [Boilerplates](/boilerplates)
-    * [React Native](/boilerplates/react-native)
-    * [Serverless](/boilerplates/serverless)
-    * [Site Repos](/boilerplates/site-repo)
-    * [Wordpress Plugin](/boilerplates/wordpress-plugin)
-    * [Wordpress Theme](/boilerplates/wordpress-theme)
+- [Table of Contents](#table-of-contents)
+- [Topics](#topics)
+- [About Dev Guide](#about-dev-guide)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 
 
-<!-- ABOUT THE PROJECT -->
+## Topics
+- [Introduction](/introduction)
+    - [New developer](/introduction/new-developer.md)
+- [Documentation](/documentation)
+    - [Code](/documentation/code.md)
+    - [Markdown](/documentation/markdown.md)
+    - [Readme](/documentation/readme.md)
+    - [This documentation](/documentation/this-documentation.md)
+- [Development](/development)
+    - [Code guideline](/development/code-guidelines)
+        - [Javascript](/development/code-guidelines/javascript.md)
+        - [PHP](/development/code-guidelines/php.md)
+        - [Typescript](/development/code-guidelines/typescript.md)
+    - [Tools](/development/tools)
+        - [Composer](/development/tools/composer.md)
+        - [Docker](/development/tools/docker.md)
+        - [Editors](/development/tools/editors.md)
+        - [git](/development/tools/git.md)
+        - [Linters](/development/tools/linters)
+            - [ESLint](/development/tools/linters/eslint)
+                - [Javascript](/development/tools/linters/eslint/javascript.md)
+                - [Typescript](/development/tools/linters/eslint/typescript.md)
+            - [phpcs](/development/tools/linters/phpcs.md)
+    - [Workflow](/development/workflow)
+        - [Branching strategy](/development/workflow/branching-strategy.md)
+        - [Code review](/development/workflow/code-review.md)
+        - [Deploy](/development/workflow/deploy.md)
+        - [Scrum](/development/workflow/scrum.md)
+    - [Commit guidelines](/development/commit-guidelines.md)
+    - [Debugging](/development/debugging.md)
+    - [repositories](/development/repositories.md)
+    - [Versioning](/development/versioning.md)
+- [Infrastructure](/infrastructure)
+    - [AWS](/infrastructure/aws)
+        - [Cloudformation](/infrastructure/aws/cloudformation.md)
+        - [Common](/infrastructure/aws/common.md)
+    - [Servers](/infrastructure/servers)
+        - [Common](/infrastructure/common.md)
+        - [Intranet](/infrastructure/intranet.md)
+- [Boilerplates](/boilerplates)
+    - [React Native](/boilerplates/react-native)
+    - [Serverless](/boilerplates/serverless)
+    - [Site Repos](/boilerplates/site-repo)
+    - [Wordpress Plugin](/boilerplates/wordpress-plugin)
+    - [Wordpress Theme](/boilerplates/wordpress-theme)
+
+
+
 ## About Dev Guide
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -113,8 +119,8 @@ Distributed under the [MIT License](license-url).
 
 ## Acknowledgements
 
-* [DocToc](https://github.com/thlorenz/doctoc)
-* [othneildrew Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [DocToc](https://github.com/thlorenz/doctoc)
+- [othneildrew Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 
 
@@ -131,6 +137,4 @@ Distributed under the [MIT License](license-url).
 [issues-url]: https://github.com/helsingborg-stad/dev-guide/issues
 [license-shield]: https://img.shields.io/github/license/helsingborg-stad/dev-guide.svg?style=flat-square
 [license-url]: https://github.com/helsingborg-stad/dev-guide/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/helsingborg-stad
 [product-screenshot]: /images/screenshot.png

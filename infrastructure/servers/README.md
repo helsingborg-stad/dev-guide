@@ -3,6 +3,6 @@ About our servers setup.
 
 ## Table of contents
 
-* [Common](/infrastructure/common.md)
-* [Intranet](/infrastructure/intranet.md)
+- [Common](/infrastructure/common.md)
+- [Intranet](/infrastructure/intranet.md)
 
