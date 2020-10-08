@@ -86,9 +86,7 @@
 
 
 ## About Dev Guide
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Welcome to Helsingborg Stad Dev Guide.
 A full markdown documentation about everything you need to know about contributing to our repositories.
 
 
