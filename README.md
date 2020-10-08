@@ -6,7 +6,7 @@ Welcome to Helsingborg dev guidelines.
 * [Introduction](/introduction)
     *  [New developer](/introduction/new-developer.md)
 * [Documentation](/documentation)
-    * [Code comments](/documentation/code-comments.md)
+    * [Code](/documentation/code.md)
     * [Markdown](/documentation/markdown.md)
     * [Readme](/documentation/readme.md)
     * [This documentation](/documentation/this-documentation.md)

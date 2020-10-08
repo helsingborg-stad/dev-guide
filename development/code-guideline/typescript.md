@@ -1,1 +1,3 @@
 # Typescript code guidelines.
+
+airbnb
