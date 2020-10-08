@@ -134,5 +134,5 @@ Distributed under the [MIT License](license-url).
 [issues-shield]: https://img.shields.io/github/issues/helsingborg-stad/dev-guide.svg?style=flat-square
 [issues-url]: https://github.com/helsingborg-stad/dev-guide/issues
 [license-shield]: https://img.shields.io/github/license/helsingborg-stad/dev-guide.svg?style=flat-square
-[license-url]: https://github.com/helsingborg-stad/dev-guide/blob/master/LICENSE
+[license-url]: https://github.com/helsingborg-stad/dev-guide/blob/master/LICENSE.txt
 [product-screenshot]: /images/screenshot.png
