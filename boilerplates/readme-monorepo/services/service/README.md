@@ -8,7 +8,6 @@ repo_name, service_name -->
 - [service_name](#service_name)
   - [Table of Contents](#table-of-contents)
   - [About service_name](#about-service_name)
-    - [Built With](#built-with)
   - [Getting Started](#getting-started)
   - [Usage](#usage)
   - [Deploy](#deploy)
@@ -22,14 +21,6 @@ repo_name, service_name -->
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `repo_name`, `service_name`
-
-
-
-### Built With
-
-* []()
-* []()
-* []()
 
 
 
