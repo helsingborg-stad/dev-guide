@@ -17,5 +17,6 @@
 ### Composer 2 beta
 #### Install
 `composer self-update --snapshot`
+
 #### Uninstall
 `composer self-update --rollback`
