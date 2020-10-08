@@ -1,5 +1,5 @@
 <!-- HEADS UP! To avoid retyping too much info. Do a search and replace with your text editor for the following:
-service_name -->
+repo_name, service_name -->
 
 # service_name
 
@@ -17,7 +17,7 @@ service_name -->
 
 ## About service_name
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![service_name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -41,9 +41,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Use this space to show useful examples of how a service can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 
 ## Deploy
