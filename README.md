@@ -8,9 +8,8 @@
   <a href="https://github.com/helsingborg-stad/dev-guide">
     <img src="images/logo.jpg" alt="Logo" width="300">
   </a>
-
-  <h3 align="center">Helsingborg Stad Dev Guide</h3>
 </p>
+<h3>Helsingborg Stad Dev Guide</h3>
 <p>
   Everything you need to be a developer at Helsingborg Stad.
   <br />
