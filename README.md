@@ -4,6 +4,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
+
 <p>
   <a href="https://github.com/helsingborg-stad/dev-guide">
     <img src="images/logo.jpg" alt="Logo" width="300">

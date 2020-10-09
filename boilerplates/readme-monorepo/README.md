@@ -8,22 +8,18 @@ repo_name, monorepo_project_name -->
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
-
-<br />
-<p align="center">
-  <a href="https://github.com/helsingborg-stad/repo_name">
-    <img src="images/logo.jpg" alt="Logo" width="600">
+<p>
+  <a href="https://github.com/helsingborg-stad/dev-guide">
+    <img src="images/logo.jpg" alt="Logo" width="300">
   </a>
-
-  <h3 align="center">monorepo_project_name</h3>
-
-  <p align="center">
-    Monorepo description.
-    <br />
-    <a href="https://github.com/helsingborg-stad/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/helsingborg-stad/repo_name/issues">Request Feature</a>
-  </p>
+</p>
+<h3>Helsingborg Stad Dev Guide</h3>
+<p>
+  Everything you need to be a developer at Helsingborg Stad.
+  <br />
+  <a href="https://github.com/helsingborg-stad/dev-guide/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/helsingborg-stad/dev-guide/issues">Request Feature</a>
 </p>
 
 
