@@ -4,24 +4,18 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
-
-
-
-<br />
-<p align="center">
+<p>
   <a href="https://github.com/helsingborg-stad/dev-guide">
-    <img src="images/logo.jpg" alt="Logo" width="600">
+    <img src="images/logo.jpg" alt="Logo" width="300">
   </a>
-
-  <h3 align="center">Helsingborg Stad Dev Guide</h3>
-
-  <p align="center">
-    Everything you need to be a developer at Helsingborg Stad.
-    <br />
-    <a href="https://github.com/helsingborg-stad/dev-guide/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/helsingborg-stad/dev-guide/issues">Request Feature</a>
-  </p>
+</p>
+<h3>Helsingborg Stad Dev Guide</h3>
+<p>
+  Everything you need to be a developer at Helsingborg Stad.
+  <br />
+  <a href="https://github.com/helsingborg-stad/dev-guide/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/helsingborg-stad/dev-guide/issues">Request Feature</a>
 </p>
 
 
