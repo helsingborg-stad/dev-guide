@@ -13,7 +13,7 @@ repo_name, project_name -->
     <img src="images/logo.jpg" alt="Logo" width="300">
   </a>
 </p>
-<h3>Helsingborg Stad Dev Guide</h3>
+<h3>project_name</h3>
 <p>
   Everything you need to be a developer at Helsingborg Stad.
   <br />
