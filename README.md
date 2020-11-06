@@ -61,6 +61,7 @@
         - [Deploy](/development/workflow/deploy.md)
         - [Scrum](/development/workflow/scrum.md)
     - [Commit guidelines](/development/commit-guidelines.md)
+    - [Pull requests](/development/pull-requests.md)
     - [Debugging](/development/debugging.md)
     - [repositories](/development/repositories.md)
     - [Versioning](/development/versioning.md)
