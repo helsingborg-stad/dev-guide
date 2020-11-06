@@ -65,6 +65,7 @@
     - [Debugging](/development/debugging.md)
     - [repositories](/development/repositories.md)
     - [Versioning](/development/versioning.md)
+    - [Case sensitivity](/development/case-sensitivity.md)
 - [Infrastructure](/infrastructure)
     - [AWS](/infrastructure/aws)
         - [Cloudformation](/infrastructure/aws/cloudformation.md)
