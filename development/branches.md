@@ -6,7 +6,7 @@ We are using gitflow as our branching strategy with a temporary stable `release`
 ![Gitflow example](images/git-model@2x.png "Gitflow")
 
 ### Gitflow articles
-[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
 [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 ## Naming convention
