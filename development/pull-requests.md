@@ -1,51 +1,40 @@
 # Pull Requests
 
-## Template
+## Branch protection rules
+A pull request against any of our Deploy branches should always be approved by at least two developers before merging.
+
+### Deploy branches.
+When merging into any of the below branches, a deploy will start.  
+  
+| branch  | Enviroments             |
+| ------- | ----------------------- |
+| dev     | develop                 |
+| master  | stage, test, production |
+| release | release                 |
+
+## Pull request template
 ```
-This line can be removed: Read this short article before you start writing https://www.pullrequest.com/blog/writing-a-great-pull-request-description/
+## Feature description
+Clearly and concisely describe the feature.
 
+## Solution description
+Describe your code changes in a more technical detailed for reviewers.
 
-## Explain the changes you’ve made
+## What areas is affected by these changes?.
+What part of the code base is affected by these changes.
 
-Good example:
-I've added support for authentication to implement Key Result 2 of OKR1. It includes 
-model, table, controller and test. For more background, see #CLICKUP-ID.
-Include 
+## Is there any exsisting behavior change of other features due to this code change?
+Mention Yes or No. If Yes, provide the appropriate explanation.
 
-## Explain why these changes are made
+## Covered unit tests cases / E2E test cases?
+Whether unit test cases or E2E test cases recorded for this feature?
 
-A good example:
-These changes complete the user login and account creation experience. See #CLICKUP_ID for more information.
-
-## Explain your solution
-
-A Good example:
-This includes a migration, model and controller for user authentication. 
-I'm using Devise to do the heavy lifting. I ran Devise migrations and those are included here.
-
-## How to test the changes?
-
-Concrete example:
-1. Checkout this branch
-2. Swap the application to run storybook
-3. Fire upp the simulator by running the command`yarn ios`
-4. ...etc
+## Are your code strutured in a way so that reviewers can understand it?
+Mention Yes or No. If No, provide a reason for the complexity.
 
 ## Was this feature tested in the following environments?
-- [] Storybook on a iOS device/simulator.
-- [] Building the Application on a iOS device/simulator.
-- [] Building the Application on a Android device/simulator.
-
-## Screenshots (optional)
-Screenshots are helpful for UI-related changes. It could be an before and after change as an example.
-Even backend code can benefit from a screenshot of the net change.
-
-## Anyhting else? (optional)
-
-A good example:
-Let's consider using a 3rd party authentication provider for this, to offload MFA and other considerations as they arise and as the privacy landscape evolves. 
-AWS Cognito is a good option, so is Firebase. I'm happy to start researching this path. Let's also consider breaking this out into its own service. 
-We can then re-use it or share the accounts with other apps in the future.
+- [x] Your personal AWS environment.
+- [x] Your local Serverless environment.
 
 ```
 

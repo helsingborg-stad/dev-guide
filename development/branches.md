@@ -22,7 +22,7 @@ List of allowed prefixes:
 | ------- | --------------------------------------------------------------------------------------------------------|
 | feat    | (Feature) A new feature.                                                                                |
 | fix     | (Bug fix) A bug Fix.                                                                                    |
-| hotfix  | (Hot fix) A fix to patch production code.                                                                        |
+| hotfix  | (Hot fix) A fix to patch production code.                                                               |
 | docs    | (Documentation) Documentation only changes.                                                             |
 | perf    | (Code Refactoring) Code changes that improves performance.                                              |
 | wip     | (Work In Progress) A code change that won't be finished soon.                                           |
