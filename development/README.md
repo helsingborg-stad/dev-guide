@@ -20,6 +20,7 @@ All our devvy stuff.
 - [Workflow](/development/workflow)
 - [Commit guidelines](/development/commit-guidelines.md)
 - [Debugging](/development/debugging.md)
-- [repositories](/development/repositories.md)
+- [Repositories](/development/repositories.md)
 - [Versioning](/development/versioning.md)
+- [Branches](/development/branches.md)
 

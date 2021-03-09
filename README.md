@@ -56,7 +56,7 @@
                 - [Typescript](/development/tools/linters/eslint/typescript.md)
             - [phpcs](/development/tools/linters/phpcs.md)
     - [Workflow](/development/workflow)
-        - [Branching strategy](/development/workflow/branching-strategy.md)
+        - [Branches](/development/branches.md)
         - [Code review](/development/workflow/code-review.md)
         - [Deploy](/development/workflow/deploy.md)
         - [Scrum](/development/workflow/scrum.md)
