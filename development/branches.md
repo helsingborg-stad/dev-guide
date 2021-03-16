@@ -39,6 +39,9 @@ ex.
 release/1.0.0
 ```
 
+## Master branch version tagging.
+Whenever any branch whether it´s a `hotfix` or a `release` is merged into master a [SemVer](./versioning.md) formed tag should be added to mark the merge.  
+
 ## Deployment
 When a pull request is accepted and merged into any of the below branches a deploy pipeline will trigger pushing the accepted PR to different environments.  
 
