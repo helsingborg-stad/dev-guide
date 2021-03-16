@@ -42,8 +42,8 @@ release/1.0.0
 ## Deployment
 When a pull request is accepted and merged into any of the below branches a deploy pipeline will trigger pushing the accepted PR to different environments.  
 
-| branch  | Enviroments             |
-| ------- | ----------------------- |
+| branch  | Environments            |
+| ------- | ------------------------|
 | dev     | develop                 |
 | master  | stage, test, production |
 | release | release                 |

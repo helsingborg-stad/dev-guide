@@ -6,7 +6,7 @@ A pull request against any of our Deploy branches should always be approved by a
 ### Deploy branches.
 When merging into any of the below branches, a deploy will start.  
   
-| branch  | Enviroments             |
+| branch  | Environments            |
 | ------- | ----------------------- |
 | dev     | develop                 |
 | master  | stage, test, production |
