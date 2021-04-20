@@ -8,4 +8,4 @@ This document should be included in all procurements which intends to result in 
 
 In general the full reqirements in this developers guide should be met. If this documentation does not cover your required language, you are required to add relevant documentation and guides for this language in the documentation. 
 
-If you intend to use a (programming-)language not mentioned in this documentation, you should clearly state this in your response in your procurement answer. 
+If you intend to use a (programming-)language not mentioned in this documentation, you should clearly state this in your response in your procurement answer.
