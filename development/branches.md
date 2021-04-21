@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Branches](#branches)
+  - [Strategy](#strategy)
+    - [Gitflow articles](#gitflow-articles)
+  - [Naming convention](#naming-convention)
+  - [Release branch naming convention](#release-branch-naming-convention)
+  - [Master branch version tagging.](#master-branch-version-tagging)
+  - [Deployment](#deployment)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Branches
 
 

@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [monorepo_project_name](#monorepo_project_name)
+- [Table of Contents](#table-of-contents)
+- [About monorepo_project_name](#about-monorepo_project_name)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Services](#services)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- HEADS UP! To avoid retyping too much info. Do a search and replace with your text editor for the following:
 repo_name, monorepo_project_name -->
 

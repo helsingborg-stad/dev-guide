@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Case sensitivity](#case-sensitivity)
+  - [Mac OS Create case sensitive image and mount.](#mac-os-create-case-sensitive-image-and-mount)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Case sensitivity
 
 As our linux servers are case sensitive we need to have that in mind when developing on case insesitive systems as Mac OS and windows.
