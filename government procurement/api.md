@@ -13,3 +13,9 @@ All interfaces that are implemented should be implemented with either one of the
 - Restful JSON following the json:api standard [https://jsonapi.org/]. 
 - GraphQL following the best practice at [https://graphql.org/learn/best-practices/]. 
 - Websockets
+
+A SOAP service is not accepted as a viable API (Application Programming Interface). Neither are a simple XML formatted response. 
+
+## API Coverage
+
+API's delivered as a response to a public procurement of Helsingborg Stad should enable developers to perform all actions avabile for a native user of the application in every avabile role. 
