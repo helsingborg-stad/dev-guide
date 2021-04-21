@@ -30,3 +30,13 @@ API's delivered as a response to a public procurement of Helsingborg Stad should
 ## API Authorization
 
 An authorization policy should be implemented for the api implementation and that clearly regulates avabile routes. 
+
+## Error resposes & error handling
+
+### Response headers
+
+
+# API standards document reference
+
+https://github.com/18F/api-standards 
+
