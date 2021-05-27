@@ -11,10 +11,10 @@ About our infrastructure.
 
 ## Table of contents
 
-- [AWS](/infrastructure/aws)
-    - [Common](/infrastructure/aws/common.md)
-    - [Cloudformation](/infrastructure/aws/cloudformation.md)
-- [Servers](/infrastructure/servers)
-    - [Common](/infrastructure/common.md)
-    - [Intranet](/infrastructure/intranet.md)
+- [AWS](aws)
+    - [Common](aws/common.md)
+    - [Cloudformation](aws/cloudformation.md)
+- [Servers](servers)
+    - [Common](common.md)
+    - [Intranet](intranet.md)
 

@@ -1,5 +1,0 @@
-#Jekyll configuration
-name: Helsingborg Stad
-description: Developer documentation
-markdown: CommonMark
-highlighter: rouge

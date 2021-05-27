@@ -1,5 +1,0 @@
-I"Â<h1 id="docker">Docker</h1>
-
-<h2 id="mutagen">Mutagen</h2>
-<p>Mutagen will accelerate docker usage on mac by speeding up syncronization of the host filesystem and the container file system.</p>
-:ET

@@ -13,7 +13,7 @@ All projects should follow these guidelines.
 
 ## Table of contents
 
-- [Javascript](/development/code-guideline/javascript.md)
-- [PHP](/development/code-guideline/php.md)
-- [Typescript](/development/code-guideline/typescript.md)
+- [Javascript](javascript.md)
+- [PHP](php.md)
+- [Typescript](typescript.md)
 

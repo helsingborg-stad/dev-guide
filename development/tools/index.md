@@ -11,12 +11,12 @@ Tools for devs
 
 ## Table of contents
 
-- [Composer](/development/tools/composer.md)
-- [Docker](/development/tools/docker.md)
-- [Editors](/development/tools/editors.md)
-- [git](/development/tools/git.md)
-- [Linters](/development/tools/linters)
-    - [ESLint](/development/tools/linters/eslint)
-        - [Javascript](/development/tools/linters/eslint/javascript.md)
-        - [Typescript](/development/tools/linters/eslint/typescript.md)
-    - [phpcs](/development/tools/linters/phpcs.md)
+- [Composer](tools/composer.md)
+- [Docker](tools/docker.md)
+- [Editors](tools/editors.md)
+- [git](tools/git.md)
+- [Linters](tools/linters)
+    - [ESLint](tools/linters/eslint)
+        - [Javascript](tools/linters/eslint/javascript.md)
+        - [Typescript](tools/linters/eslint/typescript.md)
+    - [phpcs](tools/linters/phpcs.md)

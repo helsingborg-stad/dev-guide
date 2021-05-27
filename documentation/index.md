@@ -11,7 +11,7 @@ About documentation.
 
 ## Table of contents
 
-- [Code comments](/documentation/code.md)
-- [Markdown](/documentation/markdown.md)
-- [Readme](/documentation/readme.md)
-- [This documentation](/documentation/this-documentation.md)
+- [Code comments](code.md)
+- [Markdown](markdown.md)
+- [Readme](readme.md)
+- [This documentation](this-documentation.md)
