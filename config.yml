@@ -1,1 +1,5 @@
-title: "Developer documentation - Helsingborg Stad"
+#Jekyll configuration
+name: Helsingborg Stad
+description: Developer documentation
+markdown: CommonMark
+highlighter: rouge
