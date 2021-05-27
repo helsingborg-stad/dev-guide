@@ -64,7 +64,7 @@ layout: home
     - [This documentation](/documentation/this-documentation.md)
 - [Development](/development)
     - [Code guideline](/development/code-guideline)
-        - [Javascript](/development/code-guideline/javascript.md)
+        - [Javascript](development/code-guideline/javascript.md)
         - [PHP](/development/code-guideline/php.md)
         - [Typescript](/development/code-guideline/typescript.md)
     - [Tools](/development/tools)

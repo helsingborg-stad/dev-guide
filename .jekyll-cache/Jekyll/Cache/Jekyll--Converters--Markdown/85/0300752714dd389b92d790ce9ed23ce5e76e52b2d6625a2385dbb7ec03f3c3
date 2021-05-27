@@ -1,0 +1,21 @@
+I"7<h1 id="infrastructure">Infrastructure</h1>
+<p>About our infrastructure.</p>
+
+<h2 id="table-of-contents">Table of contents</h2>
+
+<ul>
+  <li><a href="/infrastructure/aws">AWS</a>
+    <ul>
+      <li><a href="/infrastructure/aws/common.md">Common</a></li>
+      <li><a href="/infrastructure/aws/cloudformation.md">Cloudformation</a></li>
+    </ul>
+  </li>
+  <li><a href="/infrastructure/servers">Servers</a>
+    <ul>
+      <li><a href="/infrastructure/common.md">Common</a></li>
+      <li><a href="/infrastructure/intranet.md">Intranet</a></li>
+    </ul>
+  </li>
+</ul>
+
+:ET

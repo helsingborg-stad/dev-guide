@@ -1,0 +1,17 @@
+I"ï<h1 id="phpcs">PHPCS</h1>
+
+<p><a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP_CodeSniffer</a> will help you achieve PSR-12 compability.</p>
+
+<h2 id="installation">Installation</h2>
+
+<h2 id="code-editor-extensions">Code editor Extensions</h2>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<h3 id="intellij-idea">IntelliJ IDEA</h3>
+<p>https://www.jetbrains.com/idea/</p>
+
+<p>Mess detector
+https://phpmd.org/rules/index.html</p>
+
+<p>Code standard fixer
+https://cs.symfony.com/</p>
+:ET
