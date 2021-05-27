@@ -1,23 +1,13 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-  - [monorepo_project_name](#monorepo_project_name)
-- [Table of Contents](#table-of-contents)
-- [About monorepo_project_name](#about-monorepo_project_name)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-- [Services](#services)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+---
+title: "README boilerplates"
+date: 2021-05-27
+draft: false
+layout: page
+toc: true
+---
 
 <!-- HEADS UP! To avoid retyping too much info. Do a search and replace with your text editor for the following:
-repo_name, monorepo_project_name -->
+repo_name, project_name -->
 
 <!-- SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -31,7 +21,7 @@ repo_name, monorepo_project_name -->
     <img src="images/hbg-github-logo-combo.png" alt="Logo" width="300">
   </a>
 </p>
-<h3>monorepo_project_name</h3>
+<h3>project_name</h3>
 <p>
   Everything you need to be a developer at Helsingborg Stad.
   <br />
@@ -42,13 +32,16 @@ repo_name, monorepo_project_name -->
 
 
 
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [About monorepo_project_name](#about-monorepo_project_name)
+- [About project_name](#about-project_name)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-- [Services](#services)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Deploy](#deploy)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -56,13 +49,13 @@ repo_name, monorepo_project_name -->
 
 
 
-## About monorepo_project_name
+## About project_name
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![project_name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`repo_name`, `monorepo_project_name`
+`repo_name`, `project_name`
 
 
 
@@ -88,11 +81,30 @@ This is an example of how to list things you need to use the software and how to
 npm install npm@latest -g
 ```
 
-## Services
-Every service in this mono repo has its own documentation. Follow links below.
+### Installation
 
-- [Service One](/services/service)
-- [Service Two](/services/service)
+1. Clone the repo
+```sh
+git clone https://github.com/helsingborg-stad/repo_name.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+
+
+
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+## Deploy
+
+Instructions for deploys.
 
 
 

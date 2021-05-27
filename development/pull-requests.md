@@ -1,13 +1,10 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Pull Requests](#pull-requests)
-  - [Branch protection rules](#branch-protection-rules)
-    - [Deploy branches.](#deploy-branches)
-  - [Pull request template](#pull-request-template)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+---
+title: "Pull Requests"
+date: 2021-05-27
+draft: false
+layout: page
+toc: true
+---
 
 # Pull Requests
 

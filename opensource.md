@@ -1,10 +1,9 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [OpenSource](#opensource)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+---
+title: "OpenSource"
+date: 2019-03-26T08:47:11+01:00
+draft: false
+layout: home
+---
 
 ## OpenSource
 

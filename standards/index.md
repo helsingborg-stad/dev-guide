@@ -1,11 +1,9 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Foundation for Public Code](#foundation-for-public-code)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
+---
+title: "Foundation for Public Code"
+date: 2019-03-26T08:47:11+01:00
+draft: false
+toc: true
+---
 
 # Foundation for Public Code
 
