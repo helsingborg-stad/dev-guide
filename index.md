@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2019-03-26T08:47:11+01:00
 draft: false
+layout: home
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
