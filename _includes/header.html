@@ -1,100 +1,167 @@
-
-    <!-- navbar.blade.php -->
-<nav id="60af83dc1fb3e" class="c-navbar c-navbar--border-top" data-uid="60af83dc1fb37">
-    <div class="c-navbar__toggle">
-        <!-- icon.blade.php -->
-<i id="60af83dc1fc83" class="c-icon c-icon--size-xl material-icons" js-toggle-trigger="js-mobile-sidebar" data-uid="60af83dc1fc7b">
-            menu
-    </i>    </div>
-
-    
-    <div class="c-navbar__logo">
-        <a href="/">
-            <!-- image.blade.php -->
-<figure id="60af83dc1fd8a" class="c-image" data-uid="60af83dc1fd85">
-     
-        <img src="https://v2.styleguide.helsingborg.se/assets/img/logotype.svg" alt="A logo" class="c-image__image "  />
-            </figure>
-
-        </a>
+<header id="site-header" class="c-header site-header c-header c-header--casual c-header--accented" data-uid="60af88a105bce">
+    <!-- modal.blade.php -->
+    <div id="m-search-modal__trigger" class="c-modal__bg c-modal__bg__animation--slide-down" role="dialog" aria-modal="true" aria-labelledby="modal__label__m-search-modal__trigger">
+       <div class="c-modal search-modal c-modal--is-panel c-modal--padding-3 c-modal--overlay-light" data-uid="60af88a105015">
+          <header class="c-modal__header">
+             <button id="60af88a1051316.66226171" class="c-button c-modal__close c-button__basic c-button__basic--default c-button__icon-size--lg ripple ripple--before" href="" target="_top" data-close="" type="button" aria-pressed="false" data-uid="60af88a105167">
+                <span class="c-button__label">
+                   <!-- icon.blade.php -->
+                   <i id="60af88a1052b2" class="c-icon c-icon--size-inherit material-icons" data-uid="60af88a1052a5">
+                   close
+                   </i>        
+                </span>
+             </button>
+          </header>
+          <section class="c-modal__content">
+             <!-- form.blade.php -->
+             <form id="60af88a104e29" class="c-form c-form--hidden" data-uid="60af88a104e1d" method="get" action="https://adolfinaforskola.helsingborg.se">
+                <!-- typography.blade.php -->
+                <p id="60af88a1044a5" class="c-typography c-typography__variant--h1" data-uid="60af88a104498">
+                   Vad letar du efter?
+                </p>
+                <!-- group.blade.php -->
+                <div class="c-group c-group--horizontal" role="menubar">
+                   <!-- field.blade.php -->
+                   <div id="60af88a10470f" class="c-field u-flex-grow--1 c-field__text c-field--icon c-field--lg c-field--radius-md">
+                      <!-- icon.blade.php -->
+                      <i id="60af88a10486f" class="c-icon c-icon--size-md material-icons" data-uid="60af88a104862">
+                      search
+                      </i>    
+                      <input id="input_60af88a10470f" value="" type="search" name="s" required="" placeholder="Search documentation">
+                      <label class="c-field__text--placeholder">
+                        Search documentation
+                      </label>
+                      <div id="error_input_60af88a10470f_message" class="c-field__input-invalid-message">
+                         <!-- icon.blade.php -->
+                         <i id="60af88a104979" class="c-icon c-icon--size-sm material-icons" data-uid="60af88a10496d">
+                         error
+                         </i>        <span class="errorText"></span>
+                      </div>
+                   </div>
+                   <button id="60af88a104a5a6.98892720" class="c-button c-button__filled c-button__filled--default c-button--lg ripple ripple--before" href="" target="_top" type="submit" aria-pressed="false" data-uid="60af88a104a82">   
+                    <span class="c-button__label">
+                        <span class="c-button__label-text">
+                        Search
+                        </span>
+                    </span>
+                   </button>
+                </div>
+             </form>
+          </section>
+       </div>
     </div>
-    
-    <div class="c-navbar__list">
-                    
-                
-                    <a 
-                href="//v2.styleguide.helsingborg.se/components" 
-                aria-label="Components" 
-                item-ancestor="" 
-                item-active=""
-                item-has-children=""
-                item-children-async=""
-            >
-                <div class="c-navbar__item">
-                    <span>Components</span>
-                </div>
-            </a>
-                    <a 
-                href="//v2.styleguide.helsingborg.se/icons" 
-                aria-label="Icons" 
-                item-ancestor="" 
-                item-active=""
-                item-has-children=""
-                item-children-async=""
-            >
-                <div class="c-navbar__item">
-                    <span>Icons</span>
-                </div>
-            </a>
-                    <a 
-                href="//v2.styleguide.helsingborg.se/mixins" 
-                aria-label="Mixins" 
-                item-ancestor="" 
-                item-active=""
-                item-has-children=""
-                item-children-async=""
-            >
-                <div class="c-navbar__item">
-                    <span>Mixins</span>
-                </div>
-            </a>
-                    <a 
-                href="//v2.styleguide.helsingborg.se/script" 
-                aria-label="Script" 
-                item-ancestor="" 
-                item-active=""
-                item-has-children=""
-                item-children-async=""
-            >
-                <div class="c-navbar__item">
-                    <span>Script</span>
-                </div>
-            </a>
-                    <a 
-                href="//v2.styleguide.helsingborg.se/setup" 
-                aria-label="Setup" 
-                item-ancestor="" 
-                item-active=""
-                item-has-children=""
-                item-children-async=""
-            >
-                <div class="c-navbar__item">
-                    <span>Setup</span>
-                </div>
-            </a>
-                    <a 
-                href="//v2.styleguide.helsingborg.se/utilities" 
-                aria-label="Utilities" 
-                item-ancestor="" 
-                item-active=""
-                item-has-children=""
-                item-children-async=""
-            >
-                <div class="c-navbar__item">
-                    <span>Utilities</span>
-                </div>
-            </a>
-            </div>
-
-    
-    </nav>
+    <div class="c-header__menu c-header__menu--primary">
+       <div class="o-container o-container--wide">
+          <div class="u-display--flex u-justify-content--space-between u-align-content--center">
+             <a id="60af88a1031b9" class="c-link u-margin__right--4 u-display--flex" target="_top" href="https://adolfinaforskola.helsingborg.se" role="link" data-uid="60af88a1031aa">
+                <!-- logotype.blade.php -->
+                <figure id="60af88a102f95" class="c-logotype c-nav__logo ripple ripple--before" data-uid="60af88a102f84">
+                   <img src="https://v2.styleguide.helsingborg.se/assets/img/logotype.svg" alt="Go to homepage" class="c-logotype__image">
+                </figure>
+             </a>
+             <button id="60af88a1033b42.52260434" class="c-button mobile-menu-trigger js-burger js-trigger-drawer u-display--none@lg c-button__basic c-button__basic--default c-button--md ripple ripple--before" href="" target="_top" aria-label="Meny" aria-controls="navigation" type="button" aria-pressed="false" data-uid="60af88a1033e1">
+                <span class="c-button__label">
+                   <span class="c-button__label-text">
+                   Menu
+                   </span>
+                   <span class="c-button__label-icon">
+                      <!-- icon.blade.php -->
+                      <i id="60af88a103570" class="c-icon c-icon--size-inherit material-icons" data-uid="60af88a103563">
+                      keyboard_arrow_down
+                      </i>            
+                   </span>
+                </span>
+             </button>
+             <nav role="navigation" aria-label="Main menu" class="u-display--none@xs u-display--none@sm u-display--none@md u-print-display--none">
+                <!-- nav.blade.php -->
+                <ul id="60af88a10376e" class="c-nav u-flex-wrap--no-wrap u-justify-content--end unlist c-nav--horizontal" aria-orientation="horizontal" data-uid="60af88a103760" role="menu">
+                   <li class="c-nav__item " role="menuitem" aria-labelledby="60af88a10376e-0__label">
+                      <a id="60af88a10376e-0__label" class="c-nav__link" href="/about" aria-label="About">
+                      About
+                      </a>
+                   </li>
+                   <li class="c-nav__item " aria-label="Search" data-open="m-search-modal__trigger" role="menuitem" aria-labelledby="60af88a10376e-5__label">
+                      <a id="60af88a10376e-5__label" class="c-nav__link" href="#search" aria-label="">
+                         <!-- icon.blade.php -->
+                         <i id="60af88a1038be" class="c-icon c-icon--size-md material-icons" data-uid="60af88a1038b1">
+                         search
+                         </i>                    
+                      </a>
+                   </li>
+                </ul>
+             </nav>
+          </div>
+       </div>
+    </div>
+    <div class="c-drawer c-drawer--right c-drawer--primary js-drawer u-display--none@lg" data-js-toggle-item="js-drawer">
+       <div class="c-drawer__header">
+          <button class="hamburger hamburger--drawer hamburger--stacked@sm hamburger--reverse@md hamburger--slider is-active js-close-drawer" type="button" aria-label="Menu" aria-controls="navigation">
+          <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+          </span>
+          <span class="hamburger-label">
+          Stäng
+          </span>
+          </button>
+       </div>
+       <div class="c-drawer__body">
+          <!-- nav.blade.php -->
+          <ul id="60af88a103b48" class="c-nav c-nav--drawer c-nav--dark unlist c-nav--vertical" aria-orientation="vertical" data-uid="60af88a103b36" role="menu">
+             <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=171&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a103b48-0__label">
+                <a id="60af88a103b48-0__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/om-oss/" aria-label="Om oss">
+                Om oss
+                </a>
+             </li>
+             <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=173&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a103b48-1__label">
+                <a id="60af88a103b48-1__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/sa-arbetar-vi/" aria-label="Så arbetar vi">
+                Så arbetar vi
+                </a>
+                <button id="60af88a103ea17.16292616" class="c-button c-nav__toggle js-toggle-children c-button__basic c-button__basic--default c-button__icon-size--lg ripple ripple--before" href="" target="_top" js-toggle-trigger="" js-toggle-item="" type="button" aria-pressed="false" data-uid="60af88a103eca">
+                   <span class="c-button__label">
+                      <!-- icon.blade.php -->
+                      <i id="60af88a103fef" class="c-icon c-icon--size-inherit material-icons" data-uid="60af88a103fe3">
+                      expand_more
+                      </i>        
+                      <!-- loader.blade.php -->
+                      <div id="60af88a103db6" class="c-loader c-loader__circular--color--black c-loader__circular c-loader__circular--sm" aria-busy="true" role="progressbar" data-uid="60af88a103d9b"></div>
+                   </span>
+                </button>
+                <!-- nav.blade.php -->
+                <ul id="60af88a104135" class="c-nav unlist c-nav--vertical" aria-orientation="vertical" data-uid="60af88a104126" role="menu">
+                   <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=174&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a104135-0__label">
+                      <a id="60af88a104135-0__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/sa-arbetar-vi/barnets-utveckling/" aria-label="Barnets utveckling">
+                      Barnets utveckling
+                      </a>
+                   </li>
+                   <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=175&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a104135-1__label">
+                      <a id="60af88a104135-1__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/sa-arbetar-vi/trygghet-och-trivsel/" aria-label="Trygghet och trivsel">
+                      Trygghet och trivsel
+                      </a>
+                   </li>
+                   <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=212&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a104135-2__label">
+                      <a id="60af88a104135-2__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/sa-arbetar-vi/avdelningsflikar/" aria-label="På avdelningarna">
+                      På avdelningarna
+                      </a>
+                   </li>
+                </ul>
+             </li>
+             <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=177&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a103b48-2__label">
+                <a id="60af88a103b48-2__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/du-som-foralder/" aria-label="Du som förälder">
+                Du som förälder
+                </a>
+             </li>
+             <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=253&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a103b48-3__label">
+                <a id="60af88a103b48-3__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/jobba-hos-oss/" aria-label="Jobba hos oss">
+                Jobba hos oss
+                </a>
+             </li>
+             <li class="c-nav__item " data-fetch-url="https://adolfinaforskola.helsingborg.se/wp-json/municipio/v1/navigation/children/render?pageId=172&amp;viewPath=partials.navigation.mobile&amp;identifier=mobile" role="menuitem" aria-labelledby="60af88a103b48-4__label">
+                <a id="60af88a103b48-4__label" class="c-nav__link" href="https://adolfinaforskola.helsingborg.se/kontakta-oss/" aria-label="Kontakta oss">
+                Kontakta oss
+                </a>
+             </li>
+          </ul>
+       </div>
+    </div>
+    <div class="drawer-overlay js-close-drawer u-display--none@lg"></div>
+ </header>
