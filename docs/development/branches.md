@@ -11,7 +11,7 @@ parent: Development
 
 ## Strategy
 We are using gitflow as our branching strategy with a temporary stable `release` branch used before merge between `dev` and `master` as dev is considered semi stable with continous updates.
-![Gitflow example](images/git-model@2x.png "Gitflow")
+![Gitflow example](images/branches/git-model@2x.png "Gitflow")
 
 ### Gitflow articles
 [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
