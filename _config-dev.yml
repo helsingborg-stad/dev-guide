@@ -23,7 +23,7 @@ email: webbutveckling@helsingborg.se
 description: >- # this means to ignore newlines until "baseurl:"
   Helsingborgs stad developer guide
 baseurl: "/dev-guide" # the subpath of your site, e.g. /blog
-url: "https://helsingborg-stad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  helsingborg-stad
 
 # Build settings
