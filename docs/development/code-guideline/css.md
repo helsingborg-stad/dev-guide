@@ -35,21 +35,21 @@ grand_parent: Development
       - [BEM w/ Namespaces:](#bem-w-namespaces)
       - [BEM w/ Namespaces & Responsive Suffixes:](#bem-w-namespaces--responsive-suffixes)
   - [Namespaces](#namespaces)
-        - [o-, Object](#o--object)
-        - [c-, Component](#c--component)
-        - [u-, Utility](#u--utility)
-        - [t-, Theme](#t--theme)
-        - [s-, Scope](#s--scope)
-        - [is-,has-, State](#is-has--state)
-        - [_, Hack](#_-hack)
-        - [js-, Javascript](#js--javascript)
-        - [Responsive suffixes](#responsive-suffixes)
+      - [o-, Object](#o--object)
+      - [c-, Component](#c--component)
+      - [u-, Utility](#u--utility)
+      - [t-, Theme](#t--theme)
+      - [s-, Scope](#s--scope)
+      - [is-,has-, State](#is-has--state)
+      - [_ , Hack](#_--hack)
+      - [js-, Javascript](#js--javascript)
+      - [Responsive suffixes](#responsive-suffixes)
   - [BEMIT: Example](#bemit-example)
   - [BEMIT Guidelines](#bemit-guidelines)
   - [8-point Grid Guidlines](#8-point-grid-guidlines)
   - [Use margins when spacing inline elements, avoid padding](#use-margins-when-spacing-inline-elements-avoid-padding)
-        - [Don't](#dont-1)
-        - [Do](#do-3)
+      - [Don't](#dont-1)
+      - [Do](#do-3)
     - [REM](#rem)
     - [PX](#px)
     - [EM](#em)
@@ -186,31 +186,31 @@ Picture borrowed from: https://builttoadapt.io/intro-to-the-8-point-grid-system-
 
 ## Namespaces
 
-##### o-, Object
+#### o-, Object
 ``` .o-object-name[<element>|<modifier>] {}```
 
-##### c-, Component
+#### c-, Component
 ```.c-component-name[<element>|<modifier>] {}```
 
-##### u-, Utility
+#### u-, Utility
 ```.u-utility-name {}```
 
-##### t-, Theme
+#### t-, Theme
 ```.t-theme-name {}```
 
-##### s-, Scope
+#### s-, Scope
 ```.s-scope-name {}```
 
-##### is-,has-, State
+#### is-,has-, State
 ```.[is|has]-state {}```
 
-##### _, Hack
+#### _ , Hack
 ```._<namespace>hack-name {}```
 
-##### js-, Javascript
+#### js-, Javascript
 ```.js-component-name {}```
 
-##### Responsive suffixes
+#### Responsive suffixes
 ```.o-object-name\@breakpoint {} .u-utility-name\@print {}```
 
 ----
@@ -262,10 +262,10 @@ Picture borrowed from: https://builttoadapt.io/intro-to-the-8-point-grid-system-
 
 ## Use margins when spacing inline elements, avoid padding
 
-##### Don't
+#### Don't
 <img src="images/css/spacing_dont.png" alt="Logo" width="50%">
 
-##### Do
+#### Do
 <img src="images/css/spacing_do.png" alt="Logo" width="50%">
 
 
