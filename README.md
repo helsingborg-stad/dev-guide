@@ -13,7 +13,7 @@
 <h3>Helsingborg Developer Guidelines</h3>
 <p>
   Everything you need to know to be a developer at Helsingborg Stad.
-  Visit the the guideline page here <a href="https://helsingborg-stad.github.io/dev-guide/">here.</a>
+  Visit the the guideline page <a href="https://helsingborg-stad.github.io/dev-guide/">here.</a>
   <br />
   <a href="https://github.com/helsingborg-stad/dev-guide/issues">Report Bug</a>
   ·
@@ -27,7 +27,7 @@
 - [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Local development for documentation.](#local-development-for-documentation)
+  - [Local development for documentation](#local-development-for-documentation)
 - [Deploy](#deploy)
 - [Just the docs Theme documentation](#just-the-docs-theme-documentation)
 - [Roadmap](#roadmap)
@@ -45,17 +45,18 @@
 - GCC and Make (check versions using gcc -v,g++ -v, and make -v)
 
 
-### Local development for documentation.
+### Local development for documentation
 Run the development command in the terminal.
 ```
 bundle exec jekyll serve --config _config-dev.yml
 ```
-Visit http://127.0.0.1:4000/dev-guide/ to se your changes.
+Visit http://127.0.0.1:4000/dev-guide/ to see your changes.
 
 
 ## Deploy
 
-Deploy will trigger automatically with Github Actions when merging your PR into master branch.
+Deploy will trigger automatically with Github Actions when merging your PR into master branch.  
+The action will build the page and push the chnges into th gh-pages branch that is the source of https://helsingborg-stad.github.io/dev-guide/  
 
 
 ## Just the docs Theme documentation
