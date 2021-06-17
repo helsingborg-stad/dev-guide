@@ -56,11 +56,11 @@ Visit http://127.0.0.1:4000/dev-guide/ to see your changes.
 ## Deploy
 
 Deploy will trigger automatically with Github Actions when merging your PR into master branch.  
-The action will build the page and push the chnges into th gh-pages branch that is the source of https://helsingborg-stad.github.io/dev-guide/  
+The action will build the page and push the changes into the `gh-pages`-branch that becomes the source of https://helsingborg-stad.github.io/dev-guide/  
 
 
 ## Just the docs Theme documentation
-Se what theme specific features that can be used in the [Just the docs documentation](https://pmarsceill.github.io/just-the-docs/)
+See what theme specific features that can be used in the [Just the docs documentation](https://pmarsceill.github.io/just-the-docs/)
 
 ## Roadmap
 
