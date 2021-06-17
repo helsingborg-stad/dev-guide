@@ -29,6 +29,7 @@
   - [Prerequisites](#prerequisites)
   - [Local development for documentation.](#local-development-for-documentation)
 - [Deploy](#deploy)
+- [Just the docs Theme documentation](#just-the-docs-theme-documentation)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -57,6 +58,8 @@ Visit http://127.0.0.1:4000/dev-guide/ to se your changes.
 Deploy will trigger automatically with Github Actions when merging your PR into master branch.
 
 
+## Just the docs Theme documentation
+Se what theme specific features that can be used in the [Just the docs documentation](https://pmarsceill.github.io/just-the-docs/)
 
 ## Roadmap
 
