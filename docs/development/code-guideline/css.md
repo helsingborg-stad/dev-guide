@@ -1,5 +1,65 @@
-# CSS code guidelines.
+---
+title: "CSS"
+date: 2021-05-27
+draft: false
+layout: default
+parent: Code Guidelines
+grand_parent: Development
+---
 
+# Table of contents
+- [Table of contents](#table-of-contents)
+  - [Summary](#summary)
+  - [Filestructure/Layers](#filestructurelayers)
+      - [Based on ITCSS](#based-on-itcss)
+  - [Layers](#layers)
+      - [Settings](#settings)
+      - [Tools](#tools)
+      - [Generic](#generic)
+      - [Elements](#elements)
+      - [Objects](#objects)
+      - [Components](#components)
+      - [Utility](#utility)
+  - [Inverted triangle](#inverted-triangle)
+  - [8-point Grid](#8-point-grid)
+  - [Naming convention: BEM](#naming-convention-bem)
+  - [BEM - Guidelines](#bem---guidelines)
+  - [BEM - Elements](#bem---elements)
+      - [Don't](#dont)
+      - [Do](#do)
+  - [BEM - Modifiers](#bem---modifiers)
+      - [Do](#do-1)
+      - [Do](#do-2)
+  - [Introducing Namespaces BEM + ITCSS = BEMIT](#introducing-namespaces-bem--itcss--bemit)
+      - [BEM:](#bem)
+      - [BEM w/ Namespaces:](#bem-w-namespaces)
+      - [BEM w/ Namespaces & Responsive Suffixes:](#bem-w-namespaces--responsive-suffixes)
+  - [Namespaces](#namespaces)
+        - [o-, Object](#o--object)
+        - [c-, Component](#c--component)
+        - [u-, Utility](#u--utility)
+        - [t-, Theme](#t--theme)
+        - [s-, Scope](#s--scope)
+        - [is-,has-, State](#is-has--state)
+        - [_, Hack](#_-hack)
+        - [js-, Javascript](#js--javascript)
+        - [Responsive suffixes](#responsive-suffixes)
+  - [BEMIT: Example](#bemit-example)
+  - [BEMIT Guidelines](#bemit-guidelines)
+  - [8-point Grid Guidlines](#8-point-grid-guidlines)
+  - [Use margins when spacing inline elements, avoid padding](#use-margins-when-spacing-inline-elements-avoid-padding)
+        - [Don't](#dont-1)
+        - [Do](#do-3)
+    - [REM](#rem)
+    - [PX](#px)
+    - [EM](#em)
+  - [REM vs PX](#rem-vs-px)
+  - [Utilities – Margin/Padding](#utilities--marginpadding)
+      - [Margin](#margin)
+      - [Padding](#padding)
+
+
+## Summary
 eslint:recommended
 
 Standard : BEM
