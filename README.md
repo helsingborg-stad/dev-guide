@@ -48,7 +48,7 @@
 ### Local development for documentation
 Run the development command in the terminal.
 ```
-bundle exec jekyll serve --config _config-dev.yml
+bundle exec jekyll serve --config _config.yml,_config-dev.yml
 ```
 Visit http://127.0.0.1:4000/dev-guide/ to see your changes.
 

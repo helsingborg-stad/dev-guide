@@ -29,6 +29,14 @@ github_username:  helsingborg-stad
 # Build settings
 theme: just-the-docs
 
+# Aux links for the upper right navigation
+aux_links:
+  "Developer Guidelines on GitHub":
+    - "//github.com/helsingborg-stad/dev-guide"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
