@@ -1,0 +1,11 @@
+---
+title: "Workflow"
+date: 2021-05-27
+draft: false
+layout: default
+has_children: true
+parent: Development
+---
+
+# Workflow
+Different subjects revolving our workflow.
