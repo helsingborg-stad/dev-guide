@@ -14,18 +14,15 @@ grand_parent: Development
 1. [Introduction](#introduction)
 2. [Variables](#variables)
 3. [Functions](#functions)
-4. [Objects and Data Structures](#objects-and-data-structures)
-5. [Classes](#classes)
-6. [SOLID](#solid)
-7. [Testing](#testing)
-8. [Concurrency](#concurrency)
-9. [Error Handling](#error-handling)
-10. [Formatting](#formatting)
-11. [Comments](#comments)
-12. [Translation](#translation)
+4. [Testing](#testing)
+5. [Concurrency](#concurrency)
+6. [Error Handling](#error-handling)
+7. [Formatting](#formatting)
+8. [Comments](#comments)
 
 ## Introduction
-_Much of the content of this guide is humbly borrowed from the following [repository](https://github.com/_ryanmcdermott/clean-code-javascript)_
+_Much of the content of this guide is humbly borrowed from the following [repository](https://github.com/_ryanmcdermott/clean-code-javascript)._
+_As a complement to this guide, we have added some of our own guidelines that should also be able to help you._
 
 Software engineering principles, from [Robert C. Martin's book Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), adapted for JavaScript.
 
@@ -75,10 +72,7 @@ getUser();
 We will read more code than we will ever write. It's important that the code we
 do write is readable and searchable. By _not_ naming variables that end up
 being meaningful for understanding our program, we hurt our readers.
-Make your names searchable. Tools like
-[buddy.js](https://github.com/danielstjules/buddy.js) and
-[ESLint](https://github.com/eslint/eslint/blob/660e0918933e6e7fede26bc675a0763a6b357c94/docs/rules/no-magic-numbers.md)
-can help identify unnamed constants.
+Make your names searchable.
 
 **Bad:**
 
@@ -103,7 +97,7 @@ setTimeout(blastOff, MILLISECONDS_PER_DAY);
 **Bad:**
 
 ```javascript
-const address = "One Infinite Loop, Cupertino 95014";
+const address = 'One Infinite Loop, Cupertino 95014';
 const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
 saveCityZipCode(
   address.match(cityZipCodeRegex)[1],
@@ -114,10 +108,11 @@ saveCityZipCode(
 **Good:**
 
 ```javascript
-const address = "One Infinite Loop, Cupertino 95014";
+const address = 'One Infinite Loop, Cupertino 95014';
 const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
 const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
 saveCityZipCode(city, zipCode);
+// _ in this case should be seen as a will-not-use variable
 ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -129,7 +124,8 @@ Explicit is better than implicit.
 **Bad:**
 
 ```javascript
-const locations = ["Austin", "New York", "San Francisco"];
+const locations = ['Helsinborg', 'Stockholm', 'Göteborg'];
+
 locations.forEach(l => {
   doStuff();
   doSomeOtherStuff();
@@ -144,7 +140,8 @@ locations.forEach(l => {
 **Good:**
 
 ```javascript
-const locations = ["Austin", "New York", "San Francisco"];
+const locations = ['Helsinborg', 'Stockholm', 'Göteborg'];
+
 locations.forEach(location => {
   doStuff();
   doSomeOtherStuff();
@@ -159,16 +156,16 @@ locations.forEach(location => {
 
 ### Don't add unneeded context
 
-If your class/object name tells you something, don't repeat that in your
+If your object/class name tells you something, don't repeat that in your
 variable name.
 
 **Bad:**
 
 ```javascript
 const Car = {
-  carMake: "Honda",
-  carModel: "Accord",
-  carColor: "Blue"
+  carMake: 'Volvo',
+  carModel: 'Polestar',
+  carColor: 'Blue'
 };
 
 function paintCar(car, color) {
@@ -180,9 +177,9 @@ function paintCar(car, color) {
 
 ```javascript
 const Car = {
-  make: "Honda",
-  model: "Accord",
-  color: "Blue"
+  make: 'Volvo',
+  model: 'Polestar',
+  color: 'Blue'
 };
 
 function paintCar(car, color) {
@@ -202,7 +199,7 @@ arguments. Other "falsy" values such as `''`, `""`, `false`, `null`, `0`, and
 **Bad:**
 
 ```javascript
-function createMicrobrewery(name) {
+function createMicroBrewery(name) {
   const breweryName = name || "Hipster Brew Co.";
   // ...
 }
@@ -211,7 +208,7 @@ function createMicrobrewery(name) {
 **Good:**
 
 ```javascript
-function createMicrobrewery(name = "Hipster Brew Co.") {
+function createMicroBrewery(name = "Hipster Brew Co.") {
   // ...
 }
 ```
@@ -257,7 +254,7 @@ function createMenu(title, body, buttonText, cancellable) {
   // ...
 }
 
-createMenu("Foo", "Bar", "Baz", true);
+createMenu('Foo', 'Bar', 'Baz', true);
 
 ```
 
@@ -269,9 +266,9 @@ function createMenu({ title, body, buttonText, cancellable }) {
 }
 
 createMenu({
-  title: "Foo",
-  body: "Bar",
-  buttonText: "Baz",
+  title: 'Foo',
+  body: 'Bar',
+  buttonText: 'Baz',
   cancellable: true
 });
 ```
@@ -356,7 +353,7 @@ function parseBetterJSAlternative(code) {
     // ...
   ];
 
-  const statements = code.split(" ");
+  const statements = code.split(' ');
   const tokens = [];
   REGEXES.forEach(REGEX => {
     statements.forEach(statement => {
@@ -391,7 +388,7 @@ function tokenize(code) {
     // ...
   ];
 
-  const statements = code.split(" ");
+  const statements = code.split(' ');
   const tokens = [];
   REGEXES.forEach(REGEX => {
     statements.forEach(statement => {
@@ -485,10 +482,10 @@ function showEmployeeList(employees) {
     };
 
     switch (employee.type) {
-      case "manager":
+      case 'manager':
         data.portfolio = employee.getMBAProjects();
         break;
-      case "developer":
+      case 'developer':
         data.githubLink = employee.getGithubLink();
         break;
     }
@@ -507,15 +504,15 @@ function showEmployeeList(employees) {
 ```javascript
 const menuConfig = {
   title: null,
-  body: "Bar",
+  body: 'Bar',
   buttonText: null,
   cancellable: true
 };
 
 function createMenu(config) {
-  config.title = config.title || "Foo";
-  config.body = config.body || "Bar";
-  config.buttonText = config.buttonText || "Baz";
+  config.title = config.title || 'Foo';
+  config.body = config.body || 'Bar';
+  config.buttonText = config.buttonText || 'Baz';
   config.cancellable =
     config.cancellable !== undefined ? config.cancellable : true;
 }
@@ -527,18 +524,18 @@ createMenu(menuConfig);
 
 ```javascript
 const menuConfig = {
-  title: "Order",
+  title: 'Order',
   // User did not include 'body' key
-  buttonText: "Send",
+  buttonText: 'Send',
   cancellable: true
 };
 
 function createMenu(config) {
   let finalConfig = Object.assign(
     {
-      title: "Foo",
-      body: "Bar",
-      buttonText: "Baz",
+      title: 'Foo',
+      body: 'Bar',
+      buttonText: 'Baz',
       cancellable: true
     },
     config
@@ -605,10 +602,10 @@ be happier than the vast majority of other programmers.
 ```javascript
 // Global variable referenced by following function.
 // If we had another function that used this name, now it'd be an array and it could break it.
-let name = "Ryan McDermott";
+let name = 'Ryan McDermott';
 
 function splitIntoFirstAndLastName() {
-  name = name.split(" ");
+  name = name.split(' ');
 }
 
 splitIntoFirstAndLastName();
@@ -620,10 +617,10 @@ console.log(name); // ['Ryan', 'McDermott'];
 
 ```javascript
 function splitIntoFirstAndLastName(name) {
-  return name.split(" ");
+  return name.split(' ');
 }
 
-const name = "Ryan McDermott";
+const name = 'Ryan McDermott';
 const newName = splitIntoFirstAndLastName(name);
 
 console.log(name); // 'Ryan McDermott';
@@ -733,19 +730,19 @@ Favor this style of programming when you can.
 ```javascript
 const programmerOutput = [
   {
-    name: "Uncle Bobby",
+    name: 'Uncle Bobby',
     linesOfCode: 500
   },
   {
-    name: "Suzie Q",
+    name: 'Suzie Q',
     linesOfCode: 1500
   },
   {
-    name: "Jimmy Gosling",
+    name: 'Jimmy Gosling',
     linesOfCode: 150
   },
   {
-    name: "Gracie Hopper",
+    name: 'Gracie Hopper',
     linesOfCode: 1000
   }
 ];
@@ -762,19 +759,19 @@ for (let i = 0; i < programmerOutput.length; i++) {
 ```javascript
 const programmerOutput = [
   {
-    name: "Uncle Bobby",
+    name: 'Uncle Bobby',
     linesOfCode: 500
   },
   {
-    name: "Suzie Q",
+    name: 'Suzie Q',
     linesOfCode: 1500
   },
   {
-    name: "Jimmy Gosling",
+    name: 'Jimmy Gosling',
     linesOfCode: 150
   },
   {
-    name: "Gracie Hopper",
+    name: 'Gracie Hopper',
     linesOfCode: 1000
   }
 ];
@@ -792,7 +789,7 @@ const totalOutput = programmerOutput.reduce(
 **Bad:**
 
 ```javascript
-if (fsm.state === "fetching" && isEmpty(listNode)) {
+if (fsm.state === 'fetching' && isEmpty(listNode)) {
   // ...
 }
 ```
@@ -801,7 +798,7 @@ if (fsm.state === "fetching" && isEmpty(listNode)) {
 
 ```javascript
 function shouldShowSpinner(fsm, listNode) {
-  return fsm.state === "fetching" && isEmpty(listNode);
+  return fsm.state === 'fetching' && isEmpty(listNode);
 }
 
 if (shouldShowSpinner(fsmInstance, listNodeInstance)) {
@@ -857,11 +854,11 @@ class Airplane {
   // ...
   getCruisingAltitude() {
     switch (this.type) {
-      case "777":
+      case '777':
         return this.getMaxAltitude() - this.getPassengerCount();
-      case "Air Force One":
+      case 'Air Force One':
         return this.getMaxAltitude();
-      case "Cessna":
+      case 'Cessna':
         return this.getMaxAltitude() - this.getFuelExpenditure();
     }
   }
@@ -911,9 +908,9 @@ The first thing to consider is consistent APIs.
 ```javascript
 function travelToTexas(vehicle) {
   if (vehicle instanceof Bicycle) {
-    vehicle.pedal(this.currentLocation, new Location("texas"));
+    vehicle.pedal(this.currentLocation, new Location('texas'));
   } else if (vehicle instanceof Car) {
-    vehicle.drive(this.currentLocation, new Location("texas"));
+    vehicle.drive(this.currentLocation, new Location('texas'));
   }
 }
 ```
@@ -922,7 +919,7 @@ function travelToTexas(vehicle) {
 
 ```javascript
 function travelToTexas(vehicle) {
-  vehicle.move(this.currentLocation, new Location("texas"));
+  vehicle.move(this.currentLocation, new Location('texas'));
 }
 ```
 
@@ -945,13 +942,13 @@ TypeScript (which, like I said, is a great alternative!).
 ```javascript
 function combine(val1, val2) {
   if (
-    (typeof val1 === "number" && typeof val2 === "number") ||
-    (typeof val1 === "string" && typeof val2 === "string")
+    (typeof val1 === 'number' && typeof val2 === 'number') ||
+    (typeof val1 === 'string' && typeof val2 === 'string')
   ) {
     return val1 + val2;
   }
 
-  throw new Error("Must be of type String or Number");
+  throw new Error('Must be of type String or Number');
 }
 ```
 
@@ -1011,7 +1008,7 @@ function newRequestModule(url) {
 }
 
 const req = newRequestModule;
-inventoryTracker("apples", req, "www.inventory-awesome.io");
+inventoryTracker('apples', req, 'www.inventory-awesome.io');
 ```
 
 **Good:**
@@ -1022,7 +1019,7 @@ function newRequestModule(url) {
 }
 
 const req = newRequestModule;
-inventoryTracker("apples", req, "www.inventory-awesome.io");
+inventoryTracker('apples', req, 'www.inventory-awesome.io');
 ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -1049,23 +1046,23 @@ or refactoring an existing one.
 **Bad:**
 
 ```javascript
-import assert from "assert";
+import assert from 'assert';
 
-describe("MomentJS", () => {
-  it("handles date boundaries", () => {
+describe('MomentJS', () => {
+  it('handles date boundaries', () => {
     let date;
 
-    date = new MomentJS("1/1/2015");
+    date = new MomentJS('1/1/2015');
     date.addDays(30);
-    assert.equal("1/31/2015", date);
+    assert.equal('1/31/2015', date);
 
-    date = new MomentJS("2/1/2016");
+    date = new MomentJS('2/1/2016');
     date.addDays(28);
-    assert.equal("02/29/2016", date);
+    assert.equal('02/29/2016', date);
 
-    date = new MomentJS("2/1/2015");
+    date = new MomentJS('2/1/2015');
     date.addDays(28);
-    assert.equal("03/01/2015", date);
+    assert.equal('03/01/2015', date);
   });
 });
 ```
@@ -1073,25 +1070,25 @@ describe("MomentJS", () => {
 **Good:**
 
 ```javascript
-import assert from "assert";
+import assert from 'assert';
 
-describe("MomentJS", () => {
-  it("handles 30-day months", () => {
-    const date = new MomentJS("1/1/2015");
+describe('MomentJS', () => {
+  it('handles 30-day months', () => {
+    const date = new MomentJS('1/1/2015');
     date.addDays(30);
-    assert.equal("1/31/2015", date);
+    assert.equal('1/31/2015', date);
   });
 
-  it("handles leap year", () => {
-    const date = new MomentJS("2/1/2016");
+  it('handles leap year', () => {
+    const date = new MomentJS('2/1/2016');
     date.addDays(28);
-    assert.equal("02/29/2016", date);
+    assert.equal('02/29/2016', date);
   });
 
-  it("handles non-leap year", () => {
-    const date = new MomentJS("2/1/2015");
+  it('handles non-leap year', () => {
+    const date = new MomentJS('2/1/2015');
     date.addDays(28);
-    assert.equal("03/01/2015", date);
+    assert.equal('03/01/2015', date);
   });
 });
 ```
@@ -1108,20 +1105,20 @@ Promises are a built-in global type. Use them!
 **Bad:**
 
 ```javascript
-import { get } from "request";
-import { writeFile } from "fs";
+import { get } from 'request';
+import { writeFile } from 'fs';
 
 get(
-  "https://en.wikipedia.org/wiki/Robert_Cecil_Martin",
+  'https://en.wikipedia.org/wiki/Robert_Cecil_Martin',
   (requestErr, response, body) => {
     if (requestErr) {
       console.error(requestErr);
     } else {
-      writeFile("article.html", body, writeErr => {
+      writeFile('article.html', body, writeErr => {
         if (writeErr) {
           console.error(writeErr);
         } else {
-          console.log("File written");
+          console.log('File written');
         }
       });
     }
@@ -1132,15 +1129,15 @@ get(
 **Good:**
 
 ```javascript
-import { get } from "request-promise";
-import { writeFile } from "fs-extra";
+import { get } from 'request-promise';
+import { writeFile } from 'fs-extra';
 
-get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
+get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
   .then(body => {
-    return writeFile("article.html", body);
+    return writeFile('article.html', body);
   })
   .then(() => {
-    console.log("File written");
+    console.log('File written');
   })
   .catch(err => {
     console.error(err);
@@ -1160,15 +1157,15 @@ today!
 **Bad:**
 
 ```javascript
-import { get } from "request-promise";
-import { writeFile } from "fs-extra";
+import { get } from 'request-promise';
+import { writeFile } from 'fs-extra';
 
-get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
+get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
   .then(body => {
-    return writeFile("article.html", body);
+    return writeFile('article.html', body);
   })
   .then(() => {
-    console.log("File written");
+    console.log('File written');
   })
   .catch(err => {
     console.error(err);
@@ -1178,16 +1175,16 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
 **Good:**
 
 ```javascript
-import { get } from "request-promise";
-import { writeFile } from "fs-extra";
+import { get } from 'request-promise';
+import { writeFile } from 'fs-extra';
 
 async function getCleanCodeArticle() {
   try {
     const body = await get(
-      "https://en.wikipedia.org/wiki/Robert_Cecil_Martin"
+      'https://en.wikipedia.org/wiki/Robert_Cecil_Martin'
     );
-    await writeFile("article.html", body);
-    console.log("File written");
+    await writeFile('article.html', body);
+    console.log('File written');
   } catch (err) {
     console.error(err);
   }
@@ -1300,8 +1297,8 @@ they want. The point is, no matter what you all choose, just be consistent.
 const DAYS_IN_WEEK = 7;
 const daysInMonth = 30;
 
-const songs = ["Back In Black", "Stairway to Heaven", "Hey Jude"];
-const Artists = ["ACDC", "Led Zeppelin", "The Beatles"];
+const songs = ['Back In Black', 'Stairway to Heaven', 'Hey Jude'];
+const Artists = ['ACDC', 'Led Zeppelin', 'The Beatles'];
 
 function eraseDatabase() {}
 function restore_database() {}
@@ -1316,8 +1313,8 @@ class Alpaca {}
 const DAYS_IN_WEEK = 7;
 const DAYS_IN_MONTH = 30;
 
-const SONGS = ["Back In Black", "Stairway to Heaven", "Hey Jude"];
-const ARTISTS = ["ACDC", "Led Zeppelin", "The Beatles"];
+const SONGS = ['Back In Black', 'Stairway to Heaven', 'Hey Jude'];
+const ARTISTS = ['ACDC', 'Led Zeppelin', 'The Beatles'];
 
 function eraseDatabase() {}
 function restoreDatabase() {}
@@ -1343,11 +1340,11 @@ class PerformanceReview {
   }
 
   lookupPeers() {
-    return db.lookup(this.employee, "peers");
+    return db.lookup(this.employee, 'peers');
   }
 
   lookupManager() {
-    return db.lookup(this.employee, "manager");
+    return db.lookup(this.employee, 'manager');
   }
 
   getPeerReviews() {
@@ -1394,7 +1391,7 @@ class PerformanceReview {
   }
 
   lookupPeers() {
-    return db.lookup(this.employee, "peers");
+    return db.lookup(this.employee, 'peers');
   }
 
   getManagerReview() {
@@ -1402,7 +1399,7 @@ class PerformanceReview {
   }
 
   lookupManager() {
-    return db.lookup(this.employee, "manager");
+    return db.lookup(this.employee, 'manager');
   }
 
   getSelfReview() {
@@ -1525,8 +1522,8 @@ proper indentation and formatting give the visual structure to your code.
 // Scope Model Instantiation
 ////////////////////////////////////////////////////////////////////////////////
 $scope.model = {
-  menu: "foo",
-  nav: "bar"
+  menu: 'foo',
+  nav: 'bar'
 };
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -1541,8 +1538,8 @@ const actions = function() {
 
 ```javascript
 $scope.model = {
-  menu: "foo",
-  nav: "bar"
+  menu: 'foo',
+  nav: 'bar'
 };
 
 const actions = function() {
