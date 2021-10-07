@@ -44,15 +44,6 @@ module.exports = {
   transform: {
     '^.+\\.[t|j]sx?$': 'babel-jest',
   },
-  collectCoverageFrom: ['lambdas/*.js', 'helpers/*.js'],
-  coverageThreshold: {
-    global: {
-      branches: 80,
-      functions: 80,
-      lines: 80,
-      statements: 80,
-    },
-  },
 };
 ```
 
@@ -87,9 +78,11 @@ project
 
 ## Pull Request testing
 To indicate test have failed on a Github Pull Request.  
+
 ![GitHub Unit Test check](images/github-check-unit-test.png "github-check-unit-test.png")  
+
 Add a Github Action to run the test command on Pull Requests tergeting dev branch.  
-`.github/workflow/unit-test.yaml`
+`.github/workflow/pre-merge-tests.yaml`
 ```yaml 
 name: pull-request
 on:
@@ -114,5 +107,3 @@ jobs:
 ```
 
 ## Test coverage
-Always aim for 100% test coverage.
-Our preferred minimum test coverage is 80%, this is no hard limit but a guideline.

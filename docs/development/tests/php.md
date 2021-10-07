@@ -23,5 +23,5 @@ composer require --dev phpunit/phpunit ^9.5
 
 
 ## Test coverage
-Always aim for 100% test coverage.
-Our preferred minimum test coverage is 80%, this is no hard limit but a guideline.
+Test should cover program flow and edge cases.
+
