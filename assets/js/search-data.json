@@ -1,0 +1,284 @@
+{"0": {
+    "doc": "README Monorepo",
+    "title": "README Monorepo",
+    "content": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License][license-shield]][license-url] . monorepo_project_name . Everything you need to be a developer at Helsingborg Stad. Report Bug · Request Feature . ## Table of Contents - [Table of Contents](#table-of-contents) - [About monorepo_project_name](#about-monorepo_project_name) - [Built With](#built-with) - [Getting Started](#getting-started) - [Prerequisites](#prerequisites) - [Services](#services) - [Roadmap](#roadmap) - [Contributing](#contributing) - [License](#license) - [Acknowledgements](#acknowledgements) ## About monorepo_project_name [![Product Name Screen Shot][product-screenshot]](https://example.com) Here's a blank template to get started: **To avoid retyping too much info. Do a search and replace with your text editor for the following:** `repo_name`, `monorepo_project_name` ### Built With * []() * []() * []() ## Getting Started To get a local copy up and running follow these simple steps. ### Prerequisites This is an example of how to list things you need to use the software and how to install them. * npm ```sh npm install npm@latest -g ``` ## Services Every service in this mono repo has its own documentation. Follow links below. - [Service One](/services/service) - [Service Two](/services/service) ## Roadmap See the [open issues][issues-url] for a list of proposed features (and known issues). ## Contributing Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. 1. Fork the Project 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`) 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`) 4. Push to the Branch (`git push origin feature/AmazingFeature`) 5. Open a Pull Request ## License Distributed under the [MIT License][license-url]. ## Acknowledgements - [othneildrew Best README Template](https://github.com/othneildrew/Best-README-Template) [contributors-shield]: https://img.shields.io/github/contributors/helsingborg-stad/repo_name.svg?style=flat-square [contributors-url]: https://github.com/helsingborg-stad/repo_name/graphs/contributors [forks-shield]: https://img.shields.io/github/forks/helsingborg-stad/repo_name.svg?style=flat-square [forks-url]: https://github.com/helsingborg-stad/repo_name/network/members [stars-shield]: https://img.shields.io/github/stars/helsingborg-stad/repo_name.svg?style=flat-square [stars-url]: https://github.com/helsingborg-stad/repo_name/stargazers [issues-shield]: https://img.shields.io/github/issues/helsingborg-stad/repo_name.svg?style=flat-square [issues-url]: https://github.com/helsingborg-stad/repo_name/issues [license-shield]: https://img.shields.io/github/license/helsingborg-stad/repo_name.svg?style=flat-square [license-url]: https://raw.githubusercontent.com/helsingborg-stad/repo_name/master/LICENSE [product-screenshot]: images/screenshot.png ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/boilerplates/readme-monorepo/README.html",
+    "relUrl": "/docs/boilerplates/readme-monorepo/README.html"
+  },"1": {
+    "doc": "README",
+    "title": "README",
+    "content": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License][license-shield]][license-url] . project_name . Everything you need to be a developer at Helsingborg Stad. Report Bug · Request Feature . ## Table of Contents - [Table of Contents](#table-of-contents) - [About project_name](#about-project_name) - [Built With](#built-with) - [Getting Started](#getting-started) - [Prerequisites](#prerequisites) - [Installation](#installation) - [Usage](#usage) - [Deploy](#deploy) - [Roadmap](#roadmap) - [Contributing](#contributing) - [License](#license) - [Acknowledgements](#acknowledgements) ## About project_name [![project_name Screen Shot][product-screenshot]](https://example.com) Here's a blank template to get started: **To avoid retyping too much info. Do a search and replace with your text editor for the following:** `repo_name`, `project_name` ### Built With * []() * []() * []() ## Getting Started To get a local copy up and running follow these simple steps. ### Prerequisites This is an example of how to list things you need to use the software and how to install them. * npm ```sh npm install npm@latest -g ``` ### Installation 1. Clone the repo ```sh git clone https://github.com/helsingborg-stad/repo_name.git ``` 2. Install NPM packages ```sh npm install ``` ## Usage Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. _For more examples, please refer to the [Documentation](https://example.com)_ ## Deploy Instructions for deploys. ## Roadmap See the [open issues][issues-url] for a list of proposed features (and known issues). ## Contributing Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. 1. Fork the Project 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`) 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`) 4. Push to the Branch (`git push origin feature/AmazingFeature`) 5. Open a Pull Request ## License Distributed under the [MIT License][license-url]. ## Acknowledgements - [othneildrew Best README Template](https://github.com/othneildrew/Best-README-Template) [contributors-shield]: https://img.shields.io/github/contributors/helsingborg-stad/repo_name.svg?style=flat-square [contributors-url]: https://github.com/helsingborg-stad/repo_name/graphs/contributors [forks-shield]: https://img.shields.io/github/forks/helsingborg-stad/repo_name.svg?style=flat-square [forks-url]: https://github.com/helsingborg-stad/repo_name/network/members [stars-shield]: https://img.shields.io/github/stars/helsingborg-stad/repo_name.svg?style=flat-square [stars-url]: https://github.com/helsingborg-stad/repo_name/stargazers [issues-shield]: https://img.shields.io/github/issues/helsingborg-stad/repo_name.svg?style=flat-square [issues-url]: https://github.com/helsingborg-stad/repo_name/issues [license-shield]: https://img.shields.io/github/license/helsingborg-stad/repo_name.svg?style=flat-square [license-url]: https://raw.githubusercontent.com/helsingborg-stad/repo_name/master/LICENSE [product-screenshot]: images/screenshot.png ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/boilerplates/readme/README.html",
+    "relUrl": "/docs/boilerplates/readme/README.html"
+  },"2": {
+    "doc": "API (Application Programming Interface)",
+    "title": "API (Application Programming Interface)",
+    "content": "## API (Application Programming Interface) All interfaces that are implemented should be implemented with either one of the following tech: - Restful JSON following the json:api standard [https://jsonapi.org/]. - GraphQL following the best practice at [https://graphql.org/learn/best-practices/]. - Websockets A SOAP service is not accepted as a viable API (Application Programming Interface). Neither are a simple XML formatted response. ## API Coverage API's delivered as a response to a public procurement of Helsingborg Stad should enable developers to perform all actions avabile for a native user of the application in every avabile role. ## API Authentication - Generic Token - OpenAuth - JWT token - Client Side Certificate (for systems with a high security grade) ## API Authorization An authorization policy should be implemented for the api implementation and that clearly regulates avabile routes. ## Error resposes & error handling ### Response headers # API standards document reference https://github.com/18F/api-standards ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/government-procurement/api.html",
+    "relUrl": "/docs/government-procurement/api.html"
+  },"3": {
+    "doc": "AWS",
+    "title": "AWS",
+    "content": "# AWS All you need to know about AWS. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/aws/aws.html",
+    "relUrl": "/docs/infrastructure/aws/aws.html"
+  },"4": {
+    "doc": "Boilerplates",
+    "title": "Boilerplates",
+    "content": "# Boilerplates Boilerplates for our different types of common projects. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/boilerplates/boilerplates.html",
+    "relUrl": "/docs/boilerplates/boilerplates.html"
+  },"5": {
+    "doc": "Branches",
+    "title": "Branches",
+    "content": "# Branches ## Strategy We are using gitflow as our branching strategy with a temporary stable `release` branch used before merge between `dev` and `master` as dev is considered semi stable with continous updates. ![Gitflow example](images/branches/git-model@2x.png \"Gitflow\") ### Gitflow articles [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) ## Naming convention Our main branch for production code should be called `master`. For all other purposes the allowed branch names starts with a prefix, a slash(/) and then you feature name with words seperated by a dash(-). ex. ``` feat/example-feature ``` List of allowed prefixes: | prefix | Description | ------- | --------------------------------------------------------------------------------------------------------| feat | (Feature) A new feature. | fix | (Bug fix) A bug Fix. | hotfix | (Hot fix) A fix to patch production code. | docs | (Documentation) Documentation only changes. | perf | (Code Refactoring) Code changes that improves performance. | wip | (Work In Progress) A code change that won't be finished soon. | test | (TESTS) Adding missing tests or correcting existing tests. | ci | (Continuous Integrations) Changes to our CI configuration files and scripts (example scope: CircleCi). | build | (Builds) Changes that affect the build system or external dependencies (example scope: npm). | release | (Release) Preparation of a new production release. | ## Release branch naming convention The `release` branches purpose is to be a stable branch to be merged merged with the `master` branch. release branches is only allowed to have a semantic version as \"feature name\". ex. ``` release/1.0.0 ``` ## Master branch version tagging. Whenever any branch whether it´s a `hotfix` or a `release` is merged into master a [SemVer](./versioning.md) formed tag should be added to mark the merge. ## Deployment When a pull request is accepted and merged into any of the below branches a deploy pipeline will trigger pushing the accepted PR to different environments. | branch | Environments | ------- | ------------------------| dev | develop | master | stage, test, production | release | release | ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/branches.html",
+    "relUrl": "/docs/development/branches.html"
+  },"6": {
+    "doc": "Case sensitivity",
+    "title": "Case sensitivity",
+    "content": "# Case sensitivity As our linux servers are case sensitive we need to have that in mind when developing on case insesitive systems as Mac OS and windows. ## Mac OS Create case sensitive image and mount. To create and mount a case sensitive image follow below steps. Your case sensitive mount will be present in ~/dev as a symbolic link pointing at the mount point. ```sh hdiutil create -type SPARSE -fs 'Case-sensitive Journaled HFS+' -size 100g -volname dev-workspace ~/Documents/dev-workspace.sparseimage hdiutil attach ~/Documents/dev-workspace.sparseimage mkdir /Volumes/dev-workspace/dev ln -s /Volumes/dev-workspace/dev ~/dev ``` To remove the disk and mount. ``` hdiutil detach /Volumes/dev-workspace rm ~/Documents/dev-workspace.sparseimage rm ~/dev ``` To mount on startup: TODO ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/case-sensitivity.html",
+    "relUrl": "/docs/development/case-sensitivity.html"
+  },"7": {
+    "doc": "AWS Cloudformation",
+    "title": "AWS Cloudformation",
+    "content": "# AWS Cloudformation ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/aws/cloudformation.html",
+    "relUrl": "/docs/infrastructure/aws/cloudformation.html"
+  },"8": {
+    "doc": "Code Guidelines",
+    "title": "Code Guidelines",
+    "content": "# Code Guidelines We use a subset of different standards to minimize complexity when collaborating as a team. All projects should follow these guidelines. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/code-guideline/code-guidelines.html",
+    "relUrl": "/docs/development/code-guideline/code-guidelines.html"
+  },"9": {
+    "doc": "Code review",
+    "title": "Code review",
+    "content": "# Code Review Code review by at least 2 different developers. Should pass all tests Should follow code standard. Should follow code documentation standard. Should have updated README.md Should follow PR standard. Should follow Commit standard. Should follow Branching standard. Should pass file structure standard. Should pass file naming conventions. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/workflow/code-review.html",
+    "relUrl": "/docs/development/workflow/code-review.html"
+  },"10": {
+    "doc": "Code",
+    "title": "Code",
+    "content": "# Code ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/documentation/code.html",
+    "relUrl": "/docs/documentation/code.html"
+  },"11": {
+    "doc": "Commit guidelines",
+    "title": "Commit guidelines",
+    "content": "# Commit guidelines We are using [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) ## Allowed prefixes Commits should be prefixed according to below prefix-table. | prefix | Description | -------- | --------------------------------------------------------------------------------------------------------| feat: | (Feature) A new feature. | fix: | (Bug fix) A bug Fix. | hotfix: | (Hot fix) A fix to patch production code. | docs: | (Documentation) Documentation only changes. | perf: | (Code Refactoring) Code changes that improves performance. | wip: | (Work In Progress) A code change that won't be finished soon. | test: | (TESTS) Adding missing tests or correcting existing tests. | ci: | (Continuous Integrations) Changes to our CI configuration files and scripts (example scope: CircleCi). | build: | (Builds) Changes that affect the build system or external dependencies (example scope: npm). | ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/commit-guidelines.html",
+    "relUrl": "/docs/development/commit-guidelines.html"
+  },"12": {
+    "doc": "Common",
+    "title": "Common",
+    "content": "# Common ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/servers/common.html",
+    "relUrl": "/docs/infrastructure/servers/common.html"
+  },"13": {
+    "doc": "AWS Common",
+    "title": "AWS Common",
+    "content": "# AWS Common ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/aws/common.html",
+    "relUrl": "/docs/infrastructure/aws/common.html"
+  },"14": {
+    "doc": "Composer",
+    "title": "Composer",
+    "content": "# Composer [Composer](https://getcomposer.org/download/) ## Performance ### Prestissimo Plugin [Prestissimo](https://github.com/hirak/prestissimo) #### Install: `composer global require hirak/prestissimo` #### Uninstall `composer global remove hirak/prestissimo` ### Composer 2 beta #### Install `composer self-update --snapshot` #### Uninstall `composer self-update --rollback` ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/tools/composer.html",
+    "relUrl": "/docs/development/tools/composer.html"
+  },"15": {
+    "doc": "CSS",
+    "title": "CSS",
+    "content": "# - [](#table-of-contents) - [Summary](#summary) - [Filestructure/Layers](#filestructurelayers) - [Based on ITCSS](#based-on-itcss) - [Layers](#layers) - [Settings](#settings) - [Tools](#tools) - [Generic](#generic) - [Elements](#elements) - [Objects](#objects) - [Components](#components) - [Utility](#utility) - [Inverted triangle](#inverted-triangle) - [8-point Grid](#8-point-grid) - [Naming convention: BEM](#naming-convention-bem) - [BEM - Guidelines](#bem---guidelines) - [BEM - Elements](#bem---elements) - [Don't](#dont) - [Do](#do) - [BEM - Modifiers](#bem---modifiers) - [Do](#do-1) - [Do](#do-2) - [Introducing Namespaces BEM + ITCSS = BEMIT](#introducing-namespaces-bem--itcss--bemit) - [BEM:](#bem) - [BEM w/ Namespaces:](#bem-w-namespaces) - [BEM w/ Namespaces & Responsive Suffixes:](#bem-w-namespaces--responsive-suffixes) - [Namespaces](#namespaces) - [o-, Object](#o--object) - [c-, Component](#c--component) - [u-, Utility](#u--utility) - [t-, Theme](#t--theme) - [s-, Scope](#s--scope) - [is-,has-, State](#is-has--state) - [_ , Hack](#_--hack) - [js-, Javascript](#js--javascript) - [Responsive suffixes](#responsive-suffixes) - [BEMIT: Example](#bemit-example) - [BEMIT Guidelines](#bemit-guidelines) - [8-point Grid Guidlines](#8-point-grid-guidlines) - [Use margins when spacing inline elements, avoid padding](#use-margins-when-spacing-inline-elements-avoid-padding) - [Don't](#dont-1) - [Do](#do-3) - [REM](#rem) - [PX](#px) - [EM](#em) - [REM vs PX](#rem-vs-px) - [Utilities – Margin/Padding](#utilities--marginpadding) - [Margin](#margin) - [Padding](#padding) ## Summary eslint:recommended Standard : BEM ------ ## Filestructure/Layers #### Based on ITCSS ------ ## Layers #### Settings Globally used variables like colors, font, sizing etc. This layer do not output any css. #### Tools Globally used mixins and functions. This layer do not output any css. #### Generic Reset and/or normalize styles, box-sizing definition, etc. First layer which generates actual CSS. #### Elements Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here. #### Objects Abstract styles (animation, box-shadow, layout, containers etc) that can be re-used across the project. Objects should in general never be modified as they effect a wide range of UI components. #### Components Specific UI components (like button, navigation, footer etc). This is where majority of our work takes place and our UI components are often composed of Objects and Components. #### Utility Utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class ------ ## Inverted triangle ------ ## 8-point Grid Picture borrowed from: https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632 ------ ## Naming convention: BEM * All classes can be categorized as either a block, element or modifier * Syntax: .block__element—modifier * Block - Standalone entity that is meaningful on its own. * Element - A part of a block that has no standalone meaning and is semantically tied to its block. * Modifier - A flag on a block or element. Use them to change appearance or behavior. * http://getbem.com/introduction/ ------ ## BEM - Guidelines * A block can contain other blocks * Explains relationship between styles * Modularize styles to keep it DRY ----- ## BEM - Elements #### Don't ```html Title . ``` #### Do ```html Title . ``` ----- ## BEM - Modifiers #### Do ```html Title . ``` #### Do ```html Title . ``` ---- ## Introducing Namespaces BEM + ITCSS = BEMIT #### BEM: .block__element—modifier #### BEM w/ Namespaces: .namespace-block__element--modifier {} #### BEM w/ Namespaces & Responsive Suffixes: .namespace-block__element--modifier\\@suffix {} ---- ## Namespaces #### o-, Object ``` .o-object-name[|] {}``` #### c-, Component ```.c-component-name[|] {}``` #### u-, Utility ```.u-utility-name {}``` #### t-, Theme ```.t-theme-name {}``` #### s-, Scope ```.s-scope-name {}``` #### is-,has-, State ```.[is|has]-state {}``` #### _ , Hack ```._hack-name {}``` #### js-, Javascript ```.js-component-name {}``` #### Responsive suffixes ```.o-object-name\\@breakpoint {} .u-utility-name\\@print {}``` ---- ## BEMIT: Example ```html . | Page 1 | Page 2 | Page 3 | . ``` ---- ## BEMIT Guidelines * Don’t combine two components together eg. `````` * Components can be buildt with Objects eg. `````` * Always build components first - if another component has styles you need, create an objects with those styles and extend (```@extend .o-object```) or add it to the mark-up. * Don’t edit styles of objects because they effect a wide range of components ---- ## 8-point Grid Guidlines * **divisible** by 8 eg. 8px, 16px, 24px, 48px, 0.5rem (8px), 1rem (16px), 1.5rem (24px), 2rem (32px) * 4px can also be used - **but should be avoided** * **Mainly used for spacing (margins/padding)** * Line-heights, widths, heights & typography - **if possible but not necessary** ---- ## Use margins when spacing inline elements, avoid padding #### Don't #### Do ---- ### REM * Typography within content/article or other content that is primary for the page ' Margin/Padding on elements with REM as font-size ### PX * Layout * Fixed Typography (typography that does not scale with root font-size eg. certain components like buttons etc) ### EM * Media queries * Padding/Margin (avoid if possible) ---- ## REM vs PX ---- ## Utilities – Margin/Padding ```u-{property}{sides}-{size}@{screen}``` * Properties: ’m’ for margin ’p’ for padding * Sides: left (l), right (r), top (t), bottom (b), horizontal (x), vertical (y), none (all sides) * Sizes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 where 0 equals to 0 padding/margin * Screens: all screen (blank), xs screens (@xs), lg screens (@lg) etc #### Margin ```SCSS .u-mt-0 { margin-top: 0px !important; } .u-mx-0 { margin-left: 0px !important; margin-right: 0px !important; } .u-m-0 { margin: 0px !important; } ``` #### Padding ```SCSS .u-pt-0 { padding: 0px !important; } .u-px-0 { padding-left: 0px !important; padding-right: 0px !important; } .u-p-0\\@lg { @media all and screen (min-width: 100em) { } } ``` ------ ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/code-guideline/css.html",
+    "relUrl": "/docs/development/code-guideline/css.html"
+  },"16": {
+    "doc": "Debugging",
+    "title": "Debugging",
+    "content": "# Debugging ## PHP XDebug ## Javascript ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/debugging.html",
+    "relUrl": "/docs/development/debugging.html"
+  },"17": {
+    "doc": "Deploy",
+    "title": "Deploy",
+    "content": "# Deploy Continious deployment Github actions AWS codepipeline AWS codeBuild ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/workflow/deploy.html",
+    "relUrl": "/docs/development/workflow/deploy.html"
+  },"18": {
+    "doc": "Development",
+    "title": "Development",
+    "content": "# Development All our devvy stuff. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/development.html",
+    "relUrl": "/docs/development/development.html"
+  },"19": {
+    "doc": "Docker",
+    "title": "Docker",
+    "content": "# Docker ## Mutagen Mutagen will accelerate docker usage on mac by speeding up syncronization of the host filesystem and the container file system. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/tools/docker.html",
+    "relUrl": "/docs/development/tools/docker.html"
+  },"20": {
+    "doc": "Documentation",
+    "title": "Documentation",
+    "content": "# Documentation About documentation. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/documentation/documentation.html",
+    "relUrl": "/docs/documentation/documentation.html"
+  },"21": {
+    "doc": "ESlint",
+    "title": "ESlint",
+    "content": "# Javascript [ESLint](https://eslint.org/) will help you achieve . ## Installation ## Code editor Extensions ### Visual Studio Code ### IntelliJ IDEA https://www.jetbrains.com/idea/ # ESLint Typescript ## Code editor Extensions ### Visual Studio Code ### IntelliJ IDEA https://www.jetbrains.com/idea/ ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/linters/eslint.html",
+    "relUrl": "/docs/development/linters/eslint.html"
+  },"22": {
+    "doc": "File structure",
+    "title": "File structure",
+    "content": "# File structure Might be covered in coding convetions ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/file-structure.html",
+    "relUrl": "/docs/development/file-structure.html"
+  },"23": {
+    "doc": "Foundation for Public Code",
+    "title": "Foundation for Public Code",
+    "content": "# Foundation for Public Code We are commited to make it easy for others to reuse our code. Therefore, all products should be written with the standard for public code. After Januarý 1, 2021. Main products will be adapted to this standard whenever a change is made. The Standard for Public Code gives public organizations a model for building their own open source solutions to enable successful future reuse by similar public organizations in other places. It includes guidance for policy makers, city administrators, developers and vendors. The full standard can be found at https://standard.publiccode.net/. Some of the requirements mayh be mirrored in our own documentation. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/standards/foundation-for-public-code.html",
+    "relUrl": "/docs/standards/foundation-for-public-code.html"
+  },"24": {
+    "doc": "git",
+    "title": "git",
+    "content": "# Git ## Git kraken ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/tools/git.html",
+    "relUrl": "/docs/development/tools/git.html"
+  },"25": {
+    "doc": "Government procurement",
+    "title": "Government procurement",
+    "content": "# Government procurement This section do apply to those who are about to develop a product or contribure to a product as a result of committing a government procurement. This document should be included in all procurements which intends to result in a software product. ## Technical requirements In general the full reqirements in this developers guide should be met. If this documentation does not cover your required language, you are required to add relevant documentation and guides for this language in the documentation. If you intend to use a (programming-)language not mentioned in this documentation, you should clearly state this in your response in your procurement answer. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/government-procurement/government-procurement.html",
+    "relUrl": "/docs/government-procurement/government-procurement.html"
+  },"26": {
+    "doc": "Infrastructure",
+    "title": "Infrastructure",
+    "content": "# Infrastructure About our infrastructure. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/infrastructure.html",
+    "relUrl": "/docs/infrastructure/infrastructure.html"
+  },"27": {
+    "doc": "Intranet",
+    "title": "Intranet",
+    "content": "# Intranet ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/servers/intranet.html",
+    "relUrl": "/docs/infrastructure/servers/intranet.html"
+  },"28": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "# Introduction As a new developer at helsingborg, this is what you need to know to get started. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/introduction/introduction.html",
+    "relUrl": "/docs/introduction/introduction.html"
+  },"29": {
+    "doc": "Javascript",
+    "title": "Javascript",
+    "content": "# Javascript code guidelines. eslint:recommended ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/code-guideline/javascript.html",
+    "relUrl": "/docs/development/code-guideline/javascript.html"
+  },"30": {
+    "doc": "Linters",
+    "title": "Linters",
+    "content": "# Linters Linters you should use to help you meet our standards. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/linters/linters.html",
+    "relUrl": "/docs/development/linters/linters.html"
+  },"31": {
+    "doc": "Markdown",
+    "title": "Markdown",
+    "content": "# Markdown For all documentation we use github flavoured Markdown ## cheatsheet https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/documentation/markdown.html",
+    "relUrl": "/docs/documentation/markdown.html"
+  },"32": {
+    "doc": "New developer at Helsingborg",
+    "title": "New developer at Helsingborg",
+    "content": "# New developer at Helsingborg ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/introduction/new-developer.html",
+    "relUrl": "/docs/introduction/new-developer.html"
+  },"33": {
+    "doc": "Open Source",
+    "title": "Open Source",
+    "content": "## Open Source All projects that should be release under this github account licensed with the [MIT license](https://opensource.org/licenses/MIT) to enshure that the project is kept free and without liability to others. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/opensource.html",
+    "relUrl": "/docs/development/opensource.html"
+  },"34": {
+    "doc": "PHP",
+    "title": "PHP",
+    "content": "# PHP code guidelines. The developers shall use [PSR-12](https://www.php-fig.org/psr/psr-12/) that expands upon [PSR-1](https://www.php-fig.org/psr/psr-1/) ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/code-guideline/php.html",
+    "relUrl": "/docs/development/code-guideline/php.html"
+  },"35": {
+    "doc": "PHP Codesniffer",
+    "title": "PHP Codesniffer",
+    "content": "# PHPCS [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) will help you achieve PSR-12 compability. ## Installation ## Code editor Extensions ### Visual Studio Code ### IntelliJ IDEA https://www.jetbrains.com/idea/ Mess detector https://phpmd.org/rules/index.html Code standard fixer https://cs.symfony.com/ ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/linters/phpcs.html",
+    "relUrl": "/docs/development/linters/phpcs.html"
+  },"36": {
+    "doc": "Pull Requests",
+    "title": "Pull Requests",
+    "content": "# Pull Requests ## Branch protection rules A pull request against any of our Deploy branches should always be approved by at least two developers before merging. ### Deploy branches. When merging into any of the below branches, a deploy will start. | branch | Environments | ------- | ----------------------- | dev | develop | master | stage, test, production | release | release | ## Pull request template ``` ## Feature description Clearly and concisely describe the feature. ## Solution description Describe your code changes in a more technical detailed for reviewers. ## What areas is affected by these changes?. What part of the code base is affected by these changes. ## Is there any excisting behavior change of other features due to this code change? Mention Yes or No. If Yes, provide the appropriate explanation. ## Covered unit tests cases / E2E test cases? Whether unit test cases or E2E test cases recorded for this feature? ## Are your code structured in a way so that reviewers can understand it? Mention Yes or No. If No, provide a reason for the complexity. ## Was this feature tested in the following environments? - [x] Your personal AWS environment. - [x] Your local Serverless environment. ``` ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/pull-requests.html",
+    "relUrl": "/docs/development/pull-requests.html"
+  },"37": {
+    "doc": "READMES",
+    "title": "READMES",
+    "content": "# READMES Readmes is the modules documentation. Any changes to the code that affect subjects already specified in readme require a change in the readme to pass the code review. Any code that adds to required subjects in the readme should come with the addition of said subject in the readme. https://github.com/othneildrew/Best-README-Template ## tools doctoc ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/documentation/readmes.html",
+    "relUrl": "/docs/documentation/readmes.html"
+  },"38": {
+    "doc": "Repositories",
+    "title": "Repositories",
+    "content": "# Repositories ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/repositories.html",
+    "relUrl": "/docs/development/repositories.html"
+  },"39": {
+    "doc": "Scrum",
+    "title": "Scrum",
+    "content": "# Scrum Clickup ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/workflow/scrum.html",
+    "relUrl": "/docs/development/workflow/scrum.html"
+  },"40": {
+    "doc": "Servers",
+    "title": "Servers",
+    "content": "# Servers About our servers setup. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/infrastructure/servers/servers.html",
+    "relUrl": "/docs/infrastructure/servers/servers.html"
+  },"41": {
+    "doc": "Standards",
+    "title": "Standards",
+    "content": " ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/standards/standards.html",
+    "relUrl": "/docs/standards/standards.html"
+  },"42": {
+    "doc": "This Documentation",
+    "title": "This Documentation",
+    "content": "# This Documentation Any changed or additions in this documentation that changes the way of work need a full concensus in the team. Changes of spelling misstakes or any minor fixes does not need any consensus. All changes should pass at least 2 code reviews. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/documentation/this-documentation.html",
+    "relUrl": "/docs/documentation/this-documentation.html"
+  },"43": {
+    "doc": "Tools",
+    "title": "Tools",
+    "content": "# Tools Tools for devs ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/tools/tools.html",
+    "relUrl": "/docs/development/tools/tools.html"
+  },"44": {
+    "doc": "Typescript",
+    "title": "Typescript",
+    "content": "# Typescript code guidelines. airbnb ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/code-guideline/typescript.html",
+    "relUrl": "/docs/development/code-guideline/typescript.html"
+  },"45": {
+    "doc": "Versioning",
+    "title": "Versioning",
+    "content": "# Versioning We are using [Semver](https://semver.org/) Given a version number MAJOR.MINOR.PATCH, increment the: MAJOR version when you make incompatible API changes, MINOR version when you add functionality in a backwards compatible manner. PATCH version when you make backwards compatible bug fixes. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/versioning.html",
+    "relUrl": "/docs/development/versioning.html"
+  },"46": {
+    "doc": "Workflow",
+    "title": "Workflow",
+    "content": "# Workflow Different subjects revolving our workflow. ",
+    "url": "https://helsingborg-stad.github.io/dev-guide/docs/development/workflow/workflow.html",
+    "relUrl": "/docs/development/workflow/workflow.html"
+  }
+}
